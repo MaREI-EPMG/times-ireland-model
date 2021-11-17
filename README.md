@@ -2,6 +2,9 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 # TIMES-Ireland Model (TIM)
+
+[![DOI](https://zenodo.org/badge/429173600.svg)](https://zenodo.org/badge/latestdoi/429173600)
+
 ## Purpose of the model
 The TIMES-Ireland Model (TIM) is being developed at UCC to inform future possible decarbonisation pathways for the Irish energy system. We give it information on the Irish energy system as it is today, a set of constraints, including on greenhouse-gas emissions, and the best available projections for what the future technology and fuel options and demands will be.
 
