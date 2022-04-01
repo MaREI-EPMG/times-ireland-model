@@ -1,5 +1,29 @@
 [
   {
+    "Description": "Final energy consumption of bioethanol by mode",
+    "EditedOn": "2022-04-01 09:14",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"TRAETH\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "TRA_FEC-TRAETH_Mode"
+  },
+  {
+    "Description": "Final energy consumption of bio-CNG by mode",
+    "EditedOn": "2022-04-01 09:13",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"TRABNG\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "TRA_FEC-TRABNG_Mode"
+  },
+  {
+    "Description": "Final energy consumption of biodiesel by mode",
+    "EditedOn": "2022-04-01 09:12",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"TRABDL\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "TRA_FEC-TRABDL_Mode"
+  },
+  {
+    "Description": "Final energy consumption of biojet kerosene by mode",
+    "EditedOn": "2022-04-01 09:11",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"TRABJK\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "TRA_FEC-TRABJK_Mode"
+  },
+  {
     "Description": "Industry final energy consumption by sector",
     "EditedOn": "2021-07-07 15:58",
     "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_IND-CAF\",\"DMD_IND-CON\",\"DMD_IND-EOE\",\"DMD_IND-FAB\",\"DMD_IND-MAE\",\"DMD_IND-MAP\",\"DMD_IND-NEM\",\"DMD_IND-OMA\",\"DMD_IND-ONM\",\"DMD_IND-PX4\",\"DMD_IND-RAP\",\"DMD_IND-TAP\",\"DMD_IND-TEM\",\"DMD_IND-WAP\"],\"commodityset\":[\"NRG\"]}",
