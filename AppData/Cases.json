@@ -1,6 +1,165 @@
 [
   {
-    "CaseId": 883,
+    "CaseId": 888,
+    "CreatedOn": "2022-04-29 13:08",
+    "Description": "",
+    "EditedOn": "2022-04-29 13:08",
+    "EndingYear": "2070",
+    "FixResultFileName": "True",
+    "FixResultInfo": {
+      "WorkTimesFolderPath": "",
+      "GdxElasticDermands": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true
+      },
+      "GdxIre": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "GdxUseSolution": {
+        "FixYearsUpto": "2021",
+        "GdxSelectedFile": {
+          "FileName": "No_Mitigation",
+          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\No_Mitigation.gdx",
+          "IsSelected": true
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "IsApplyFixResult": true
+    },
+    "GAMSSourceFolder": "GAMS_SrcTIMES",
+    "Name": "Mitigation_CarbonBudget",
+    "ParametricGroup": null,
+    "ParametricGroupId": null,
+    "PeriodsDefinition": "p39",
+    "PropertiesGroup": "DefaultProperties",
+    "PropertiesGroupId": 979,
+    "RegionGroup": "SingleRegion",
+    "RegionGroupId": 984,
+    "ScenarioGroup": "MitigationCarbonBudget",
+    "ScenarioGroupId": 986,
+    "Solver": "cplex",
+    "SolverOptionFile": "cplex",
+    "UserName": "olex"
+  },
+  {
+    "CaseId": 887,
+    "CreatedOn": "2022-04-29 13:08",
+    "Description": "",
+    "EditedOn": "2022-04-29 13:08",
+    "EndingYear": "2070",
+    "FixResultFileName": "True",
+    "FixResultInfo": {
+      "WorkTimesFolderPath": "",
+      "GdxElasticDermands": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true
+      },
+      "GdxIre": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "GdxUseSolution": {
+        "FixYearsUpto": "2021",
+        "GdxSelectedFile": {
+          "FileName": "No_Mitigation",
+          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\No_Mitigation.gdx",
+          "IsSelected": true
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "IsApplyFixResult": true
+    },
+    "GAMSSourceFolder": "GAMS_SrcTIMES",
+    "Name": "Mitigation_ReducedCarbonBudget",
+    "ParametricGroup": null,
+    "ParametricGroupId": null,
+    "PeriodsDefinition": "p39",
+    "PropertiesGroup": "DefaultProperties",
+    "PropertiesGroupId": 979,
+    "RegionGroup": "SingleRegion",
+    "RegionGroupId": 984,
+    "ScenarioGroup": "MitigationReducedCarbonBudget",
+    "ScenarioGroupId": 987,
+    "Solver": "cplex",
+    "SolverOptionFile": "cplex",
+    "UserName": "olex"
+  },
+  {
+    "CaseId": 886,
+    "CreatedOn": "2022-04-29 13:07",
+    "Description": "",
+    "EditedOn": "2022-04-29 13:07",
+    "EndingYear": "2070",
+    "FixResultFileName": "True",
+    "FixResultInfo": {
+      "WorkTimesFolderPath": "",
+      "GdxElasticDermands": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true
+      },
+      "GdxIre": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "GdxUseSolution": {
+        "FixYearsUpto": "2021",
+        "GdxSelectedFile": {
+          "FileName": "No_Mitigation",
+          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\No_Mitigation.gdx",
+          "IsSelected": true
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "IsApplyFixResult": true
+    },
+    "GAMSSourceFolder": "GAMS_SrcTIMES",
+    "Name": "Mitigation_ReducedSectoralCBs",
+    "ParametricGroup": null,
+    "ParametricGroupId": null,
+    "PeriodsDefinition": "p39",
+    "PropertiesGroup": "DefaultProperties",
+    "PropertiesGroupId": 979,
+    "RegionGroup": "SingleRegion",
+    "RegionGroupId": 984,
+    "ScenarioGroup": "MitigationReducedSectoralCBs",
+    "ScenarioGroupId": 988,
+    "Solver": "cplex",
+    "SolverOptionFile": "cplex",
+    "UserName": "olex"
+  },
+  {
+    "CaseId": 884,
     "CreatedOn": "2022-04-28 21:01",
     "Description": "",
     "EditedOn": "2022-04-28 21:44",
@@ -43,20 +202,20 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 967,
+    "PropertiesGroupId": 979,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 968,
+    "RegionGroupId": 984,
     "ScenarioGroup": "MitigationSectoralCBs",
-    "ScenarioGroupId": 976,
+    "ScenarioGroupId": 985,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "olex"
   },
   {
-    "CaseId": 881,
+    "CaseId": 885,
     "CreatedOn": "2021-03-02 13:00",
     "Description": "",
-    "EditedOn": "2022-04-28 20:19",
+    "EditedOn": "2022-04-29 13:41",
     "EndingYear": "2070",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -96,11 +255,11 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 967,
+    "PropertiesGroupId": 979,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 968,
+    "RegionGroupId": 984,
     "ScenarioGroup": "NoMitigation",
-    "ScenarioGroupId": 971,
+    "ScenarioGroupId": 982,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "olex"
