@@ -1,27 +1,9 @@
 [
   {
-    "Description": "Final energy consumption of bioethanol by mode",
-    "EditedOn": "2022-04-01 09:14",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"TRAETH\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "TRA_FEC-TRAETH_Mode"
-  },
-  {
-    "Description": "Final energy consumption of bio-CNG by mode",
-    "EditedOn": "2022-04-01 09:13",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"TRABNG\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "TRA_FEC-TRABNG_Mode"
-  },
-  {
-    "Description": "Final energy consumption of biodiesel by mode",
-    "EditedOn": "2022-04-01 09:12",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"TRABDL\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "TRA_FEC-TRABDL_Mode"
-  },
-  {
-    "Description": "Final energy consumption of biojet kerosene by mode",
-    "EditedOn": "2022-04-01 09:11",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"TRABJK\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "TRA_FEC-TRABJK_Mode"
+    "Description": "Transport final energy consumption by mode",
+    "EditedOn": "2022-05-01 10:01",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "TRA_FEC_Mode"
   },
   {
     "Description": "Industry final energy consumption by sector",
@@ -72,103 +54,13 @@
     "Name": "SYS_NRG-Import"
   },
   {
-    "Description": "Final energy consumption of LPG by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"OILLPG\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-LPG_Sector"
-  },
-  {
-    "Description": "Final energy consumption of HFO by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"OILHFO\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-HFO_Sector"
-  },
-  {
-    "Description": "Final energy consumption of hydrogen by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"SUPH2GD\",\"SUPH2LD\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-H2_Sector"
-  },
-  {
-    "Description": "Final energy consumption of coal by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"COABIT\",\"COAHAR\",\"COALIG\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-COA_Sector"
-  },
-  {
-    "Description": "Final energy consumption of biomass by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"BIOWOO\",\"BIOWOO1\",\"BIOWOO2\",\"BIOWOO3\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-BIOWOOx_Sector"
-  },
-  {
-    "Description": "Final energy consumption of peat by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"PEAT\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-PEAT_Sector"
-  },
-  {
-    "Description": "Final energy consumption of biodiesel by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"BIODST1G\",\"BIODST2G\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-BIODST_Sector"
-  },
-  {
-    "Description": "Final energy consumption of biogas by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"BIOGAS1G\",\"BIOGAS2G\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-BIOGAS_Sector"
-  },
-  {
-    "Description": "Final energy consumption of ethanol by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"BIOETH1G\",\"BIOETH2G\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-BIOETH_Sector"
-  },
-  {
-    "Description": "Final energy consumption of gasoline by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"OILGSL\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-OILGSL_Sector"
-  },
-  {
-    "Description": "Final energy consumption of diesel by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"OILDST\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-OILDST_Sector"
-  },
-  {
-    "Description": "Final energy consumption of kerosene by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"OILKER\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-OILKER_Sector"
-  },
-  {
-    "Description": "Final energy consumption of natural gas by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"GASNAT\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-GASNAT_Sector"
-  },
-  {
-    "Description": "Final energy consumption of heat by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"HETD\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-HETD_Sector"
-  },
-  {
-    "Description": "Final energy consumption of electricity by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"commodity\":[\"ELCD\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC-ELCD_Sector"
-  },
-  {
     "Description": "Power Sector Fuel Marginal Cost",
     "EditedOn": "2021-06-23 09:31",
     "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_PWR\"]}",
     "Name": "PWR_FuelPrice"
   },
   {
-    "Description": "Power - CO2 Emissions",
+    "Description": "Power Sector CO2 Emissions",
     "EditedOn": "2021-06-23 09:31",
     "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"PWR-BIO\",\"PWR-BIO-CCS\",\"PWR-COA\",\"PWR-COA-CCS\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-GEO\",\"PWR-H2\",\"PWR-HYD\",\"PWR-MSW\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-PEA\",\"PWR-PEA-CCS\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\"],\"commodityset\":[\"ENV-CO2\"]}",
     "Name": "PWR_Emissions-CO2"
@@ -190,12 +82,6 @@
     "EditedOn": "2021-06-23 09:31",
     "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"ELCC\"],\"processset\":[\"PWR-BIO\",\"PWR-COA\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-H2\",\"PWR-HYD\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\",\"PWR-COA-CCS\",\"PWR-BIO-CCS\",\"PWR-GEO\",\"PWR-MSW\",\"PWR-PEA\",\"PWR-PEA-CCS\"]}",
     "Name": "PWR_Gen-ELCC"
-  },
-  {
-    "Description": "Breakdown of Energy Provided to Services",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"RSDCD\",\"RSDCK\",\"RSDCW\",\"RSDDW\",\"RSDLT_Apt\",\"RSDLT_Att\",\"RSDLT_Det\",\"RSDOA\",\"RSDOE\",\"RSDPF_Apt\",\"RSDPF_Att\",\"RSDPF_Det\",\"RSDRF\",\"RSDSC_Apt\",\"RSDSC_Att\",\"RSDSC_Det\",\"RSDSH_Apt\",\"RSDSH_Att\",\"RSDSH_Det\",\"RSDWH_Apt\",\"RSDWH_Att\",\"RSDWH_Det\"]}",
-    "Name": "Residential Services"
   },
   {
     "Description": "Industry - Construction - FEC",
@@ -292,24 +178,6 @@
     "EditedOn": "2021-06-23 09:31",
     "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-REST\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
     "Name": "TRA_Rest_FuelCons"
-  },
-  {
-    "Description": "Passenger Transport - Land - Mode - Short-range",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"TRAPS\"],\"processset\":[\"DMD_TRA-P-ACTIVE\",\"DMD_TRA-P-BUS\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\"]}",
-    "Name": "TRA_Passenger_Land_Mode-S"
-  },
-  {
-    "Description": "Passenger Transport - Land - Mode - Medium-range",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"TRAPM\"],\"processset\":[\"DMD_TRA-P-ACTIVE\",\"DMD_TRA-P-BUS\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\"]}",
-    "Name": "TRA_Passenger_Land_Mode-M"
-  },
-  {
-    "Description": "Passenger Transport - Land - Mode - Long-range",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"TRAPL\"],\"processset\":[\"DMD_TRA-P-ACTIVE\",\"DMD_TRA-P-BUS\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\"]}",
-    "Name": "TRA_Passenger_Land_Mode-L"
   },
   {
     "Description": "Passenger Transport - Land - Mode",
@@ -454,18 +322,6 @@
     "EditedOn": "2021-06-23 09:31",
     "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DUMMY_IMPORT\"]}",
     "Name": "Check_Dummy"
-  },
-  {
-    "Description": "Residential energy consumption by energy service",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-CD\",\"RSD_BLD-XXX_NRGSRV-CK\",\"RSD_BLD-XXX_NRGSRV-CW\",\"RSD_BLD-XXX_NRGSRV-DW\",\"RSD_BLD-XXX_NRGSRV-LT\",\"RSD_BLD-XXX_NRGSRV-OA\",\"RSD_BLD-XXX_NRGSRV-OE\",\"RSD_BLD-XXX_NRGSRV-PF\",\"RSD_BLD-XXX_NRGSRV-RF\",\"RSD_BLD-XXX_NRGSRV-SC\",\"RSD_BLD-XXX_NRGSRV-SH\",\"RSD_BLD-XXX_NRGSRV-WH\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "RSD_SankeyFlow"
-  },
-  {
-    "Description": "",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"scenario\":[\"Test2070\"],\"commodity\":[\"RSDCD\",\"RSDCK\",\"RSDCW\",\"RSDDW\",\"RSDLT_Apt\",\"RSDLT_Att\",\"RSDLT_Det\",\"RSDOA\",\"RSDOE\",\"RSDPF_Apt\",\"RSDPF_Att\",\"RSDPF_Det\",\"RSDRF\",\"RSDSC_Apt\",\"RSDSC_Att\",\"RSDSC_Det\",\"RSDSH_Apt\",\"RSDSH_Att\",\"RSDSH_Det\",\"RSDWH_Apt\",\"RSDWH_Att\",\"RSDWH_Det\"]}",
-    "Name": "RSD_Demands"
   },
   {
     "Description": "Residential Fuel Marginal Cost",
