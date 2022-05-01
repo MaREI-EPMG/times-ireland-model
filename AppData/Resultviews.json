@@ -1,99 +1,45 @@
 [
   {
-    "Description": "Transport final energy consumption by mode",
-    "EditedOn": "2022-05-01 10:01",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "TRA_FEC_Mode"
-  },
-  {
-    "Description": "Industry final energy consumption by sector",
-    "EditedOn": "2021-07-07 15:58",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_IND-CAF\",\"DMD_IND-CON\",\"DMD_IND-EOE\",\"DMD_IND-FAB\",\"DMD_IND-MAE\",\"DMD_IND-MAP\",\"DMD_IND-NEM\",\"DMD_IND-OMA\",\"DMD_IND-ONM\",\"DMD_IND-PX4\",\"DMD_IND-RAP\",\"DMD_IND-TAP\",\"DMD_IND-TEM\",\"DMD_IND-WAP\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "IND_FEC_Sector"
-  },
-  {
-    "Description": "Transport - Land - Passenger/Freight - Lump sum investment costs",
-    "EditedOn": "2021-07-02 00:02",
-    "Filter": "{\"attribute\":[\"Cap_New\"],\"processset\":[\"DMD_TRA-F-LAND\",\"DMD_TRA-P-LAND\"],\"userconstraint\":[\"LUMPINV\"]}",
-    "Name": "TRA-Land_LumpInv"
-  },
-  {
-    "Description": "Lump sum investment costs by sector",
-    "EditedOn": "2021-07-01 23:43",
-    "Filter": "{\"attribute\":[\"Cap_New\"],\"processset\":[\"PRC_AGR\",\"PRC_IND\",\"PRC_PWR\",\"PRC_RSD\",\"PRC_SRV\",\"PRC_SUP\",\"PRC_TRA\"],\"userconstraint\":[\"LUMPINV\"]}",
-    "Name": "SYS_LumpInv_Sector"
-  },
-  {
-    "Description": "Services - data centres excess heat supply to DH grid",
+    "Description": "Agriculture final energy consumption",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"HETC\"],\"processset\":[\"SRV_CS-DC-EH-HP\"]}",
-    "Name": "SRV-DCs_EH_DH-Grid"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_AGR\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "AGR_FEC"
   },
   {
-    "Description": "Services - data centres excess heat",
+    "Description": "Agriculture Fuel Marginal Cost",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"SRVHET-DC-LT\"],\"processset\":[\"DMD_SRV-CS_DC\"]}",
-    "Name": "SRV-DCs_EH"
+    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_AGR\"]}",
+    "Name": "AGR_FuelPrice"
   },
   {
-    "Description": "Mining of energy commodities",
+    "Description": "Agriculture - Production of primary biomass",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE-MIN\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_NRG-Mining"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"AGR-BIO\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "AGR_NRG-BIO-PRIME"
   },
   {
-    "Description": "Export of energy commodities",
+    "Description": "Agriculture - Production of primary biomass",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"IRE-EXP\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_NRG-Export"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"AGR-BIO\"],\"commodityset\":[\"SEAI_RENEWABLES\",\"SEAI_BIOENERGY\",\"SEAI_OTHER_RENEWABLES\"]}",
+    "Name": "AGR_NRG-BIO-PRIME_SEAI"
   },
   {
-    "Description": "Import of energy commodities",
+    "Description": "Check dummy imports",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE-IMP\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_NRG-Import"
-  },
-  {
-    "Description": "Power Sector Fuel Marginal Cost",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_PWR\"]}",
-    "Name": "PWR_FuelPrice"
-  },
-  {
-    "Description": "Power Sector CO2 Emissions",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"PWR-BIO\",\"PWR-BIO-CCS\",\"PWR-COA\",\"PWR-COA-CCS\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-GEO\",\"PWR-H2\",\"PWR-HYD\",\"PWR-MSW\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-PEA\",\"PWR-PEA-CCS\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\"],\"commodityset\":[\"ENV-CO2\"]}",
-    "Name": "PWR_Emissions-CO2"
-  },
-  {
-    "Description": "PWR Capacity - New",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Ncap\"],\"processset\":[\"PWR-BIO\",\"PWR-COA\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-H2\",\"PWR-HYD\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\",\"PWR-BIO-CCS\",\"PWR-COA-CCS\",\"PWR-GEO\",\"PWR-MSW\",\"PWR-PEA\",\"PWR-PEA-CCS\"]}",
-    "Name": "PWR_Cap-N"
-  },
-  {
-    "Description": "PWR Generation - Heat",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"HETC\"],\"processset\":[\"PWR-BIO\",\"PWR-COA\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-H2\",\"PWR-HYD\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\",\"PWR-COA-CCS\",\"PWR-BIO-CCS\",\"PWR-GEO\",\"PWR-MSW\",\"PWR-PEA\",\"PWR-PEA-CCS\"]}",
-    "Name": "PWR_Gen-HETC"
-  },
-  {
-    "Description": "PWR Generation - Electricity",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"ELCC\"],\"processset\":[\"PWR-BIO\",\"PWR-COA\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-H2\",\"PWR-HYD\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\",\"PWR-COA-CCS\",\"PWR-BIO-CCS\",\"PWR-GEO\",\"PWR-MSW\",\"PWR-PEA\",\"PWR-PEA-CCS\"]}",
-    "Name": "PWR_Gen-ELCC"
-  },
-  {
-    "Description": "Industry - Construction - FEC",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_IND-CON\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "IND-CON_FEC"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DUMMY_IMPORT\"]}",
+    "Name": "Check_Dummy"
   },
   {
     "Description": "Industry - Chemicals and man-made fibers - FEC",
     "EditedOn": "2021-06-23 09:31",
     "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_IND-CAF\"],\"commodityset\":[\"NRG\"]}",
     "Name": "IND-CAF_FEC"
+  },
+  {
+    "Description": "Industry - Construction - FEC",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_IND-CON\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "IND-CON_FEC"
   },
   {
     "Description": "Industry - Electrical and optical equipment - FEC",
@@ -174,178 +120,16 @@
     "Name": "IND_Emissions-CO2"
   },
   {
-    "Description": "Transport - Rest - Fuel Consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-REST\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
-    "Name": "TRA_Rest_FuelCons"
-  },
-  {
-    "Description": "Passenger Transport - Land - Mode",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DMD_TRA-P-ACTIVE\",\"DMD_TRA-P-BUS\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\"],\"commodityset\":[\"DEM_TRA\"]}",
-    "Name": "TRA_Passenger_Land_Mode"
-  },
-  {
-    "Description": "Passenger Transport - Land - Fuel Consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-P-LAND\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
-    "Name": "TRA_Passenger_Land_FuelCons"
-  },
-  {
-    "Description": "Passenger Transport - Land - Distance",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"TRAPL\",\"TRAPM\",\"TRAPS\"],\"processset\":[\"DMD_TRA-P-LAND\"]}",
-    "Name": "TRA_Passenger_Land_Distance"
-  },
-  {
-    "Description": "Freight Transport - Land - Mode",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-F-TRAIN\"],\"commodityset\":[\"DEM_TRA\"]}",
-    "Name": "TRA_Freight_Land_Mode"
-  },
-  {
-    "Description": "Freight Transport - Land - Fuel Consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-F-LAND\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
-    "Name": "TRA_Freight_Land_FuelCons"
-  },
-  {
-    "Description": "SysCost",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"ObjZ\"]}",
-    "Name": "SysCost"
-  },
-  {
-    "Description": "Final energy consumption by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC_Sector"
-  },
-  {
-    "Description": "N2O emissions by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Comnet\"],\"commodityset\":[\"ENV-N2O_AGR\",\"ENV-N2O_SRV\",\"ENV-N2O_IND\",\"ENV-N2O_PWR\",\"ENV-N2O_RSD\",\"ENV-N2O_SUP\",\"ENV-N2O_TRA\"]}",
-    "Name": "SYS_Emissions_N2O"
-  },
-  {
-    "Description": "CO2 emissions by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Comnet\"],\"commodityset\":[\"ENV-CO2_AGR\",\"ENV-CO2_SRV\",\"ENV-CO2_IND\",\"ENV-CO2_PWR\",\"ENV-CO2_RSD\",\"ENV-CO2_SUP\",\"ENV-CO2_TRA\"]}",
-    "Name": "SYS_Emissions_CO2"
-  },
-  {
-    "Description": "CH4 emissions by sector",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Comnet\"],\"commodityset\":[\"ENV-CH4_AGR\",\"ENV-CH4_SRV\",\"ENV-CH4_IND\",\"ENV-CH4_PWR\",\"ENV-CH4_RSD\",\"ENV-CH4_SUP\",\"ENV-CH4_TRA\"]}",
-    "Name": "SYS_Emissions_CH4"
-  },
-  {
-    "Description": "Supply of biogas (import and production)",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"BIOGAS1G\",\"BIOGAS2G\"]}",
-    "Name": "SUP_BIOGAS"
-  },
-  {
-    "Description": "Supply of bio-ethanol (import and production)",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"BIOETH1G\",\"BIOETH2G\"]}",
-    "Name": "SUP_BIOETH"
-  },
-  {
-    "Description": "Supply of bio-diesel (import and production)",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"BIODST1G\",\"BIODST2G\"]}",
-    "Name": "SUP_BIODST"
-  },
-  {
-    "Description": "Residential other services fuel consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-CD\",\"RSD_BLD-XXX_NRGSRV-CK\",\"RSD_BLD-XXX_NRGSRV-CW\",\"RSD_BLD-XXX_NRGSRV-DW\",\"RSD_BLD-XXX_NRGSRV-LT\",\"RSD_BLD-XXX_NRGSRV-OA\",\"RSD_BLD-XXX_NRGSRV-OE\",\"RSD_BLD-XXX_NRGSRV-PF\",\"RSD_BLD-XXX_NRGSRV-RF\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "RSD_OtherServices_FuelCons"
-  },
-  {
-    "Description": "Residential hot water, space heating and cooling fuel consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "RSD_WaterSpace_FuelCons"
-  },
-  {
-    "Description": "Residential energy consumption by energy service",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-CD\",\"RSD_BLD-XXX_NRGSRV-CK\",\"RSD_BLD-XXX_NRGSRV-CW\",\"RSD_BLD-XXX_NRGSRV-DW\",\"RSD_BLD-XXX_NRGSRV-LT\",\"RSD_BLD-XXX_NRGSRV-OA\",\"RSD_BLD-XXX_NRGSRV-OE\",\"RSD_BLD-XXX_NRGSRV-PF\",\"RSD_BLD-XXX_NRGSRV-RF\",\"RSD_BLD-XXX_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "RSD_Services_EnergyCons"
-  },
-  {
-    "Description": "Residential CO2 emissions by energy service",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-CD\",\"RSD_BLD-XXX_NRGSRV-CK\",\"RSD_BLD-XXX_NRGSRV-CW\",\"RSD_BLD-XXX_NRGSRV-DW\",\"RSD_BLD-XXX_NRGSRV-LT\",\"RSD_BLD-XXX_NRGSRV-OA\",\"RSD_BLD-XXX_NRGSRV-OE\",\"RSD_BLD-XXX_NRGSRV-PF\",\"RSD_BLD-XXX_NRGSRV-RF\",\"RSD_BLD-XXX_NRGSRV-WS\"],\"commodityset\":[\"ENV-CO2_RSD\"]}",
-    "Name": "RSD_Services_CO2Emissions"
-  },
-  {
-    "Description": "PWR Capacity",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"PWR-BIO\",\"PWR-COA\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-H2\",\"PWR-HYD\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\",\"PWR-BIO-CCS\",\"PWR-COA-CCS\",\"PWR-GEO\",\"PWR-MSW\",\"PWR-PEA\",\"PWR-PEA-CCS\"]}",
-    "Name": "PWR_Cap"
-  },
-  {
-    "Description": "Transport final energy consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "TRA_FEC"
-  },
-  {
-    "Description": "Residential final energy consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_RSD\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "RSD_FEC"
-  },
-  {
     "Description": "Industry final energy consumption",
     "EditedOn": "2021-06-23 09:31",
     "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_IND\"],\"commodityset\":[\"NRG\"]}",
     "Name": "IND_FEC"
   },
   {
-    "Description": "Services final energy consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_SRV\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SRV_FEC"
-  },
-  {
-    "Description": "Agriculture final energy consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_AGR\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "AGR_FEC"
-  },
-  {
-    "Description": "Check dummy imports",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DUMMY_IMPORT\"]}",
-    "Name": "Check_Dummy"
-  },
-  {
-    "Description": "Residential Fuel Marginal Cost",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_RSD\"]}",
-    "Name": "RSD_FuelPrice"
-  },
-  {
-    "Description": "Transport Fuel Marginal Cost",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
-    "Name": "TRA_FuelPrice"
-  },
-  {
-    "Description": "Services Fuel Marginal Cost",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_SRV\"]}",
-    "Name": "SRV_FuelPrice"
-  },
-  {
-    "Description": "Agriculture Fuel Marginal Cost",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_AGR\"]}",
-    "Name": "AGR_FuelPrice"
+    "Description": "Industry final energy consumption by sector",
+    "EditedOn": "2021-07-07 15:58",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_IND-CAF\",\"DMD_IND-CON\",\"DMD_IND-EOE\",\"DMD_IND-FAB\",\"DMD_IND-MAE\",\"DMD_IND-MAP\",\"DMD_IND-NEM\",\"DMD_IND-OMA\",\"DMD_IND-ONM\",\"DMD_IND-PX4\",\"DMD_IND-RAP\",\"DMD_IND-TAP\",\"DMD_IND-TEM\",\"DMD_IND-WAP\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "IND_FEC_Sector"
   },
   {
     "Description": "Industry Fuel Marginal Cost",
@@ -354,94 +138,40 @@
     "Name": "IND_FuelPrice"
   },
   {
-    "Description": "Residential Buildings by Type",
+    "Description": "PWR Capacity",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_RSD-BLD-APT\",\"DMD_RSD-BLD-ATT\",\"DMD_RSD-BLD-DET\"]}",
-    "Name": "RSD_BLD_TYPE"
+    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"PWR-BIO\",\"PWR-COA\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-H2\",\"PWR-HYD\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\",\"PWR-BIO-CCS\",\"PWR-COA-CCS\",\"PWR-GEO\",\"PWR-MSW\",\"PWR-PEA\",\"PWR-PEA-CCS\"]}",
+    "Name": "PWR_Cap"
   },
   {
-    "Description": "CO2 emissions in DACS",
+    "Description": "PWR Capacity - New",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"process\":[\"SCO2DACS\"],\"attribute\":[\"VAR_FIn\"]}",
-    "Name": "SYS_DACS"
+    "Filter": "{\"attribute\":[\"VAR_Ncap\"],\"processset\":[\"PWR-BIO\",\"PWR-COA\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-H2\",\"PWR-HYD\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\",\"PWR-BIO-CCS\",\"PWR-COA-CCS\",\"PWR-GEO\",\"PWR-MSW\",\"PWR-PEA\",\"PWR-PEA-CCS\"]}",
+    "Name": "PWR_Cap-N"
   },
   {
-    "Description": "Transport - Domestic Aviation - Fuel Consumption",
+    "Description": "Power Sector CO2 Emissions",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-AVIDOM\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
-    "Name": "TRA_AVIDOM_FuelCons"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"PWR-BIO\",\"PWR-BIO-CCS\",\"PWR-COA\",\"PWR-COA-CCS\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-GEO\",\"PWR-H2\",\"PWR-HYD\",\"PWR-MSW\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-PEA\",\"PWR-PEA-CCS\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\"],\"commodityset\":[\"ENV-CO2\"]}",
+    "Name": "PWR_Emissions-CO2"
   },
   {
-    "Description": "Transport - International Aviation - Fuel Consumption",
+    "Description": "Power Sector Fuel Marginal Cost",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-AVIINT\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
-    "Name": "TRA_AVIINT_FuelCons"
+    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_PWR\"]}",
+    "Name": "PWR_FuelPrice"
   },
   {
-    "Description": "Transport - Unspecified - Fuel Consumption",
+    "Description": "PWR Generation - Electricity",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-OTH\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
-    "Name": "TRA_OTH_FuelCons"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"ELCC\"],\"processset\":[\"PWR-BIO\",\"PWR-COA\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-H2\",\"PWR-HYD\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\",\"PWR-COA-CCS\",\"PWR-BIO-CCS\",\"PWR-GEO\",\"PWR-MSW\",\"PWR-PEA\",\"PWR-PEA-CCS\"]}",
+    "Name": "PWR_Gen-ELCC"
   },
   {
-    "Description": "Transport - Navigation - Fuel Consumption",
+    "Description": "PWR Generation - Heat",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-NAV\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
-    "Name": "TRA_NAV_FuelCons"
-  },
-  {
-    "Description": "Transport - Tourism - Fuel Consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
-    "Name": "TRA_TURS_FuelCons"
-  },
-  {
-    "Description": "Passenger Transport - Private Car Stock by Type",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_TRA-P-CAR-BEV\",\"DMD_TRA-P-CAR-FCV\",\"DMD_TRA-P-CAR-HEV\",\"DMD_TRA-P-CAR-ICE\",\"DMD_TRA-P-CAR-PHEV\"]}",
-    "Name": "TRA_P-CAR_TYPE"
-  },
-  {
-    "Description": "Passenger Transport - New Private Car Stock by Type",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"DMD_TRA-P-CAR-BEV\",\"DMD_TRA-P-CAR-FCV\",\"DMD_TRA-P-CAR-HEV\",\"DMD_TRA-P-CAR-ICE\",\"DMD_TRA-P-CAR-PHEV\"]}",
-    "Name": "TRA_P-CAR-N_TYPE"
-  },
-  {
-    "Description": "Freight Transport - Light Goods Truck Stock by Type",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_TRA-F-LTRUCK-BEV\",\"DMD_TRA-F-LTRUCK-FCV\",\"DMD_TRA-F-LTRUCK-HEV\",\"DMD_TRA-F-LTRUCK-ICE\",\"DMD_TRA-F-LTRUCK-PHEV\"]}",
-    "Name": "TRA_F-LTRUCK_TYPE"
-  },
-  {
-    "Description": "Freight Transport - New Light Goods Truck Stock by Type",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"DMD_TRA-F-LTRUCK-BEV\",\"DMD_TRA-F-LTRUCK-FCV\",\"DMD_TRA-F-LTRUCK-HEV\",\"DMD_TRA-F-LTRUCK-ICE\",\"DMD_TRA-F-LTRUCK-PHEV\"]}",
-    "Name": "TRA_F-LTRUCK-N_TYPE"
-  },
-  {
-    "Description": "Freight Transport - Medium Goods Truck Stock by Type",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_TRA-F-MTRUCK-BEV\",\"DMD_TRA-F-MTRUCK-FCV\",\"DMD_TRA-F-MTRUCK-HEV\",\"DMD_TRA-F-MTRUCK-ICE\"]}",
-    "Name": "TRA_F-MTRUCK_TYPE"
-  },
-  {
-    "Description": "Freight Transport - New Medium Goods Truck Stock by Type",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"DMD_TRA-F-MTRUCK-BEV\",\"DMD_TRA-F-MTRUCK-FCV\",\"DMD_TRA-F-MTRUCK-HEV\",\"DMD_TRA-F-MTRUCK-ICE\"]}",
-    "Name": "TRA_F-MTRUCK-N_TYPE"
-  },
-  {
-    "Description": "Freight Transport - Heavy Goods Truck Stock by Type",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_TRA-F-HTRUCK-BEV\",\"DMD_TRA-F-HTRUCK-FCV\",\"DMD_TRA-F-HTRUCK-HEV\",\"DMD_TRA-F-HTRUCK-ICE\"]}",
-    "Name": "TRA_F-HTRUCK_TYPE"
-  },
-  {
-    "Description": "Freight Transport - New Heavy Goods Truck Stock by Type",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"DMD_TRA-F-HTRUCK-BEV\",\"DMD_TRA-F-HTRUCK-FCV\",\"DMD_TRA-F-HTRUCK-HEV\",\"DMD_TRA-F-HTRUCK-ICE\"]}",
-    "Name": "TRA_F-HTRUCK-N_TYPE"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"HETC\"],\"processset\":[\"PWR-BIO\",\"PWR-COA\",\"PWR-GAS\",\"PWR-GAS-CCS\",\"PWR-H2\",\"PWR-HYD\",\"PWR-OCE\",\"PWR-OIL\",\"PWR-SOL\",\"PWR-WIN-OF\",\"PWR-WIN-ON\",\"PWR-COA-CCS\",\"PWR-BIO-CCS\",\"PWR-GEO\",\"PWR-MSW\",\"PWR-PEA\",\"PWR-PEA-CCS\"]}",
+    "Name": "PWR_Gen-HETC"
   },
   {
     "Description": "New Residential Buildings by Type",
@@ -450,94 +180,34 @@
     "Name": "RSD_BLD-N_TYPE"
   },
   {
+    "Description": "Residential Buildings by Type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_RSD-BLD-APT\",\"DMD_RSD-BLD-ATT\",\"DMD_RSD-BLD-DET\"]}",
+    "Name": "RSD_BLD_TYPE"
+  },
+  {
     "Description": "Residential Cooking Technologies by Type",
     "EditedOn": "2021-06-23 09:31",
     "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-CK\"]}",
     "Name": "RSD_CK_TYPE"
   },
   {
-    "Description": "Supply of hydrogen (production)",
+    "Description": "Residential final energy consumption",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"SUPH2GC\",\"SUPH2GD\"],\"processset\":[\"SUP-H2-Electrolysis\"]}",
-    "Name": "SUP_HYDROGEN"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_RSD\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "RSD_FEC"
   },
   {
-    "Description": "Transport - CO2 Emissions",
+    "Description": "Residential Fuel Marginal Cost",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DMD_TRA-P-LAND\",\"DMD_TRA-F-LAND\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-F-LAND\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"ENV-CO2\"]}",
-    "Name": "TRA_Emissions-CO2"
+    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_RSD\"]}",
+    "Name": "RSD_FuelPrice"
   },
   {
-    "Description": "Final energy consumption by fuel",
+    "Description": "Residential other services fuel consumption",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SYS_FEC_Fuel"
-  },
-  {
-    "Description": "Agriculture - Production of primary biomass",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"AGR-BIO\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "AGR_NRG-BIO-PRIME"
-  },
-  {
-    "Description": "Services - commercial - final energy consumption for water heating and space heating and cooling",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"SRV-CS_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SRV-COM_FEC_WS"
-  },
-  {
-    "Description": "Services - public - final energy consumption for water heating and space heating and cooling",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"SRV-PU_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SRV-PUB_FEC_WS"
-  },
-  {
-    "Description": "Services final energy consumption for cooking",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"SRV-CS_NRGSRV-CK\",\"SRV-PU_NRGSRV-CK\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SRV_FEC_COK"
-  },
-  {
-    "Description": "Services final energy consumption by service",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"SRV-CS_NRGSRV-WS\",\"SRV-PU_NRGSRV-WS\",\"SRV-CS_NRGSRV-CK\",\"SRV-PU_NRGSRV-CK\",\"SRV-CS_NRGSRV-LIG\",\"SRV-PU_NRGSRV-LIG\",\"SRV-CS_NRGSRV-OEL\",\"SRV-PU_NRGSRV-OEL\",\"SRV-CS_NRGSRV-REF\",\"SRV-PU_NRGSRV-REF\",\"DMD_SRV-CS_DC\",\"DMD_SRV-PU_PLIG\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "SRV_FEC_Service"
-  },
-  {
-    "Description": "Residential apartments hot water, space heating and cooling fuel consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-APT_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "RSD_WS-APT_FuelCons"
-  },
-  {
-    "Description": "Residential attached hot water, space heating and cooling fuel consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-ATT_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "RSD_WS-ATT_FuelCons"
-  },
-  {
-    "Description": "Residential detached hot water, space heating and cooling fuel consumption",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-DET_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
-    "Name": "RSD_WS-DET_FuelCons"
-  },
-  {
-    "Description": "New Residential Space and Water Heating - Apartments - Capacity",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"RSD_BLD-APT_NRGSRV-WS\"]}",
-    "Name": "RSD_WS-APT_NCAP"
-  },
-  {
-    "Description": "New Residential Space and Water Heating - Attached - Capacity",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"RSD_BLD-ATT_NRGSRV-WS\"]}",
-    "Name": "RSD_WS-ATT_NCAP"
-  },
-  {
-    "Description": "New Residential Space and Water Heating - Detached - Capacity",
-    "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"RSD_BLD-DET_NRGSRV-WS\"]}",
-    "Name": "RSD_WS-DET_NCAP"
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-CD\",\"RSD_BLD-XXX_NRGSRV-CK\",\"RSD_BLD-XXX_NRGSRV-CW\",\"RSD_BLD-XXX_NRGSRV-DW\",\"RSD_BLD-XXX_NRGSRV-LT\",\"RSD_BLD-XXX_NRGSRV-OA\",\"RSD_BLD-XXX_NRGSRV-OE\",\"RSD_BLD-XXX_NRGSRV-PF\",\"RSD_BLD-XXX_NRGSRV-RF\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "RSD_OtherServices_FuelCons"
   },
   {
     "Description": "New Residential Retrofit - Apartments - Capacity",
@@ -564,46 +234,94 @@
     "Name": "RSD_RTFT_NRG_SAVINGS"
   },
   {
-    "Description": "Marginal cost of CO2",
+    "Description": "Residential CO2 emissions by energy service",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"ENV-CO2\"]}",
-    "Name": "SYS_CO2Price"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-CD\",\"RSD_BLD-XXX_NRGSRV-CK\",\"RSD_BLD-XXX_NRGSRV-CW\",\"RSD_BLD-XXX_NRGSRV-DW\",\"RSD_BLD-XXX_NRGSRV-LT\",\"RSD_BLD-XXX_NRGSRV-OA\",\"RSD_BLD-XXX_NRGSRV-OE\",\"RSD_BLD-XXX_NRGSRV-PF\",\"RSD_BLD-XXX_NRGSRV-RF\",\"RSD_BLD-XXX_NRGSRV-WS\"],\"commodityset\":[\"ENV-CO2_RSD\"]}",
+    "Name": "RSD_Services_CO2Emissions"
   },
   {
-    "Description": "Annual costs by type",
+    "Description": "Residential energy consumption by energy service",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"Reg_ACost\"]}",
-    "Name": "SYS_Cost_Type"
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-CD\",\"RSD_BLD-XXX_NRGSRV-CK\",\"RSD_BLD-XXX_NRGSRV-CW\",\"RSD_BLD-XXX_NRGSRV-DW\",\"RSD_BLD-XXX_NRGSRV-LT\",\"RSD_BLD-XXX_NRGSRV-OA\",\"RSD_BLD-XXX_NRGSRV-OE\",\"RSD_BLD-XXX_NRGSRV-PF\",\"RSD_BLD-XXX_NRGSRV-RF\",\"RSD_BLD-XXX_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "RSD_Services_EnergyCons"
   },
   {
-    "Description": "Import of energy commodities",
+    "Description": "Residential apartments hot water, space heating and cooling fuel consumption",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE-IMP\"],\"commodityset\":[\"SEAI_COAL\",\"SEAI_ELECTRICITY\",\"SEAI_HEAT\",\"SEAI_NATGAS\",\"SEAI_OIL\",\"SEAI_PEAT\",\"SEAI_RENEWABLES\",\"SEAI_HYDROGEN\",\"SEAI_OTHER_RENEWABLES\",\"SEAI_BIOENERGY\"]}",
-    "Name": "SYS_NRG-Import_SEAI"
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-APT_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "RSD_WS-APT_FuelCons"
   },
   {
-    "Description": "Export of energy commodities",
+    "Description": "New Residential Space and Water Heating - Apartments - Capacity",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"IRE-EXP\"],\"commodityset\":[\"SEAI_COAL\",\"SEAI_ELECTRICITY\",\"SEAI_HEAT\",\"SEAI_NATGAS\",\"SEAI_OIL\",\"SEAI_PEAT\",\"SEAI_RENEWABLES\",\"SEAI_HYDROGEN\",\"SEAI_BIOENERGY\",\"SEAI_OTHER_RENEWABLES\"]}",
-    "Name": "SYS_NRG-Export_SEAI"
+    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"RSD_BLD-APT_NRGSRV-WS\"]}",
+    "Name": "RSD_WS-APT_NCAP"
   },
   {
-    "Description": "Mining of energy commodities",
+    "Description": "Residential attached hot water, space heating and cooling fuel consumption",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE-MIN\"],\"commodityset\":[\"SEAI_COAL\",\"SEAI_ELECTRICITY\",\"SEAI_HEAT\",\"SEAI_NATGAS\",\"SEAI_OIL\",\"SEAI_PEAT\",\"SEAI_RENEWABLES\",\"SEAI_HYDROGEN\",\"SEAI_OTHER_RENEWABLES\",\"SEAI_BIOENERGY\"]}",
-    "Name": "SYS_NRG-Mining_SEAI"
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-ATT_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "RSD_WS-ATT_FuelCons"
   },
   {
-    "Description": "Agriculture - Production of primary biomass",
+    "Description": "New Residential Space and Water Heating - Attached - Capacity",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"AGR-BIO\"],\"commodityset\":[\"SEAI_RENEWABLES\",\"SEAI_BIOENERGY\",\"SEAI_OTHER_RENEWABLES\"]}",
-    "Name": "AGR_NRG-BIO-PRIME_SEAI"
+    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"RSD_BLD-ATT_NRGSRV-WS\"]}",
+    "Name": "RSD_WS-ATT_NCAP"
   },
   {
-    "Description": "Final energy consumption by fuel",
+    "Description": "Residential detached hot water, space heating and cooling fuel consumption",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"SEAI_COAL\",\"SEAI_ELECTRICITY\",\"SEAI_HEAT\",\"SEAI_NATGAS\",\"SEAI_OIL\",\"SEAI_PEAT\",\"SEAI_RENEWABLES\",\"SEAI_HYDROGEN\",\"SEAI_OTHER_RENEWABLES\",\"SEAI_BIOENERGY\"]}",
-    "Name": "SYS_FEC_Fuel_SEAI"
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-DET_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "RSD_WS-DET_FuelCons"
+  },
+  {
+    "Description": "New Residential Space and Water Heating - Detached - Capacity",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"RSD_BLD-DET_NRGSRV-WS\"]}",
+    "Name": "RSD_WS-DET_NCAP"
+  },
+  {
+    "Description": "Residential hot water, space heating and cooling fuel consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"RSD_BLD-XXX_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "RSD_WaterSpace_FuelCons"
+  },
+  {
+    "Description": "Services - commercial - final energy consumption for water heating and space heating and cooling",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"SRV-CS_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SRV-COM_FEC_WS"
+  },
+  {
+    "Description": "Services - data centres excess heat",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"SRVHET-DC-LT\"],\"processset\":[\"DMD_SRV-CS_DC\"]}",
+    "Name": "SRV-DCs_EH"
+  },
+  {
+    "Description": "Services - data centres excess heat supply to DH grid",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"HETC\"],\"processset\":[\"SRV_CS-DC-EH-HP\"]}",
+    "Name": "SRV-DCs_EH_DH-Grid"
+  },
+  {
+    "Description": "Services - public - final energy consumption for water heating and space heating and cooling",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"SRV-PU_NRGSRV-WS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SRV-PUB_FEC_WS"
+  },
+  {
+    "Description": "Services final energy consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_SRV\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SRV_FEC"
+  },
+  {
+    "Description": "Services final energy consumption for cooking",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"SRV-CS_NRGSRV-CK\",\"SRV-PU_NRGSRV-CK\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SRV_FEC_COK"
   },
   {
     "Description": "Services final energy consumption by data centres",
@@ -612,10 +330,172 @@
     "Name": "SRV_FEC_DCs"
   },
   {
+    "Description": "Services final energy consumption by service",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"SRV-CS_NRGSRV-WS\",\"SRV-PU_NRGSRV-WS\",\"SRV-CS_NRGSRV-CK\",\"SRV-PU_NRGSRV-CK\",\"SRV-CS_NRGSRV-LIG\",\"SRV-PU_NRGSRV-LIG\",\"SRV-CS_NRGSRV-OEL\",\"SRV-PU_NRGSRV-OEL\",\"SRV-CS_NRGSRV-REF\",\"SRV-PU_NRGSRV-REF\",\"DMD_SRV-CS_DC\",\"DMD_SRV-PU_PLIG\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SRV_FEC_Service"
+  },
+  {
+    "Description": "Services Fuel Marginal Cost",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_SRV\"]}",
+    "Name": "SRV_FuelPrice"
+  },
+  {
+    "Description": "Supply of bio-diesel (import and production)",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"BIODST1G\",\"BIODST2G\"]}",
+    "Name": "SUP_BIODST"
+  },
+  {
+    "Description": "Supply of bio-ethanol (import and production)",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"BIOETH1G\",\"BIOETH2G\"]}",
+    "Name": "SUP_BIOETH"
+  },
+  {
+    "Description": "Supply of biogas (import and production)",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"BIOGAS1G\",\"BIOGAS2G\"]}",
+    "Name": "SUP_BIOGAS"
+  },
+  {
+    "Description": "Supply of hydrogen (production)",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"SUPH2GC\",\"SUPH2GD\"],\"processset\":[\"SUP-H2-Electrolysis\"]}",
+    "Name": "SUP_HYDROGEN"
+  },
+  {
+    "Description": "Marginal cost of CO2",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"ENV-CO2\"]}",
+    "Name": "SYS_CO2Price"
+  },
+  {
+    "Description": "Annual costs by sector",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"Cost_Act\",\"Cost_Flo\",\"Cost_Fom\",\"Cost_Inv\"],\"processset\":[\"PRC_AGR\",\"PRC_IND\",\"PRC_PWR\",\"PRC_RSD\",\"PRC_SRV\",\"PRC_SUP\",\"PRC_TRA\"]}",
+    "Name": "SYS_Cost_Sector"
+  },
+  {
+    "Description": "Annual costs by type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"Reg_ACost\"]}",
+    "Name": "SYS_Cost_Type"
+  },
+  {
+    "Description": "CO2 emissions in DACS",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"process\":[\"SCO2DACS\"],\"attribute\":[\"VAR_FIn\"]}",
+    "Name": "SYS_DACS"
+  },
+  {
+    "Description": "CH4 emissions by sector",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\"],\"commodityset\":[\"ENV-CH4_AGR\",\"ENV-CH4_SRV\",\"ENV-CH4_IND\",\"ENV-CH4_PWR\",\"ENV-CH4_RSD\",\"ENV-CH4_SUP\",\"ENV-CH4_TRA\"]}",
+    "Name": "SYS_Emissions_CH4"
+  },
+  {
+    "Description": "CO2 emissions by sector",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\"],\"commodityset\":[\"ENV-CO2_AGR\",\"ENV-CO2_SRV\",\"ENV-CO2_IND\",\"ENV-CO2_PWR\",\"ENV-CO2_RSD\",\"ENV-CO2_SUP\",\"ENV-CO2_TRA\"]}",
+    "Name": "SYS_Emissions_CO2"
+  },
+  {
+    "Description": "N2O emissions by sector",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_Comnet\"],\"commodityset\":[\"ENV-N2O_AGR\",\"ENV-N2O_SRV\",\"ENV-N2O_IND\",\"ENV-N2O_PWR\",\"ENV-N2O_RSD\",\"ENV-N2O_SUP\",\"ENV-N2O_TRA\"]}",
+    "Name": "SYS_Emissions_N2O"
+  },
+  {
+    "Description": "Final energy consumption by fuel",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SYS_FEC_Fuel"
+  },
+  {
+    "Description": "Final energy consumption by fuel",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"SEAI_COAL\",\"SEAI_ELECTRICITY\",\"SEAI_HEAT\",\"SEAI_NATGAS\",\"SEAI_OIL\",\"SEAI_PEAT\",\"SEAI_RENEWABLES\",\"SEAI_HYDROGEN\",\"SEAI_OTHER_RENEWABLES\",\"SEAI_BIOENERGY\"]}",
+    "Name": "SYS_FEC_Fuel_SEAI"
+  },
+  {
+    "Description": "Final energy consumption by sector",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_AGR\",\"FT_SRV\",\"FT_IND\",\"FT_RSD\",\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SYS_FEC_Sector"
+  },
+  {
+    "Description": "Lump sum investment costs by sector",
+    "EditedOn": "2021-07-01 23:43",
+    "Filter": "{\"attribute\":[\"Cap_New\"],\"processset\":[\"PRC_AGR\",\"PRC_IND\",\"PRC_PWR\",\"PRC_RSD\",\"PRC_SRV\",\"PRC_SUP\",\"PRC_TRA\"],\"userconstraint\":[\"LUMPINV\"]}",
+    "Name": "SYS_LumpInv_Sector"
+  },
+  {
+    "Description": "Export of energy commodities",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"IRE-EXP\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SYS_NRG-Export"
+  },
+  {
+    "Description": "Export of energy commodities",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"IRE-EXP\"],\"commodityset\":[\"SEAI_COAL\",\"SEAI_ELECTRICITY\",\"SEAI_HEAT\",\"SEAI_NATGAS\",\"SEAI_OIL\",\"SEAI_PEAT\",\"SEAI_RENEWABLES\",\"SEAI_HYDROGEN\",\"SEAI_BIOENERGY\",\"SEAI_OTHER_RENEWABLES\"]}",
+    "Name": "SYS_NRG-Export_SEAI"
+  },
+  {
     "Description": "Export of energy commodities - copy",
     "EditedOn": "2021-06-23 09:31",
     "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"IRE-EXP\"],\"commodityset\":[\"SEAI_COAL\",\"SEAI_ELECTRICITY\",\"SEAI_HEAT\",\"SEAI_NATGAS\",\"SEAI_OIL\",\"SEAI_PEAT\",\"SEAI_RENEWABLES\",\"SEAI_HYDROGEN\",\"SEAI_BIOENERGY\",\"SEAI_OTHER_RENEWABLES\"]}",
     "Name": "SYS_NRG-Export_SEAI_2"
+  },
+  {
+    "Description": "Import of energy commodities",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE-IMP\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SYS_NRG-Import"
+  },
+  {
+    "Description": "Import of energy commodities",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE-IMP\"],\"commodityset\":[\"SEAI_COAL\",\"SEAI_ELECTRICITY\",\"SEAI_HEAT\",\"SEAI_NATGAS\",\"SEAI_OIL\",\"SEAI_PEAT\",\"SEAI_RENEWABLES\",\"SEAI_HYDROGEN\",\"SEAI_OTHER_RENEWABLES\",\"SEAI_BIOENERGY\"]}",
+    "Name": "SYS_NRG-Import_SEAI"
+  },
+  {
+    "Description": "Mining of energy commodities",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE-MIN\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "SYS_NRG-Mining"
+  },
+  {
+    "Description": "Mining of energy commodities",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IRE-MIN\"],\"commodityset\":[\"SEAI_COAL\",\"SEAI_ELECTRICITY\",\"SEAI_HEAT\",\"SEAI_NATGAS\",\"SEAI_OIL\",\"SEAI_PEAT\",\"SEAI_RENEWABLES\",\"SEAI_HYDROGEN\",\"SEAI_OTHER_RENEWABLES\",\"SEAI_BIOENERGY\"]}",
+    "Name": "SYS_NRG-Mining_SEAI"
+  },
+  {
+    "Description": "SysCost",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"ObjZ\"]}",
+    "Name": "SysCost"
+  },
+  {
+    "Description": "Transport - Land - Passenger/Freight - Lump sum investment costs",
+    "EditedOn": "2021-07-02 00:02",
+    "Filter": "{\"attribute\":[\"Cap_New\"],\"processset\":[\"DMD_TRA-F-LAND\",\"DMD_TRA-P-LAND\"],\"userconstraint\":[\"LUMPINV\"]}",
+    "Name": "TRA-Land_LumpInv"
+  },
+  {
+    "Description": "Transport - Domestic Aviation - Fuel Consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-AVIDOM\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
+    "Name": "TRA_AVIDOM_FuelCons"
+  },
+  {
+    "Description": "Transport - International Aviation - Fuel Consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-AVIINT\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
+    "Name": "TRA_AVIINT_FuelCons"
   },
   {
     "Description": "Transport - CO2 Emissions",
@@ -624,9 +504,129 @@
     "Name": "TRA_AVIINT_NAV_EmissionsCO2"
   },
   {
-    "Description": "Annual costs by sector",
+    "Description": "Transport - CO2 Emissions",
     "EditedOn": "2021-06-23 09:31",
-    "Filter": "{\"attribute\":[\"Cost_Act\",\"Cost_Flo\",\"Cost_Fom\",\"Cost_Inv\"],\"processset\":[\"PRC_AGR\",\"PRC_IND\",\"PRC_PWR\",\"PRC_RSD\",\"PRC_SRV\",\"PRC_SUP\",\"PRC_TRA\"]}",
-    "Name": "SYS_Cost_Sector"
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DMD_TRA-P-LAND\",\"DMD_TRA-F-LAND\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-F-LAND\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"ENV-CO2\"]}",
+    "Name": "TRA_Emissions-CO2"
+  },
+  {
+    "Description": "Freight Transport - New Heavy Goods Truck Stock by Type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"DMD_TRA-F-HTRUCK-BEV\",\"DMD_TRA-F-HTRUCK-FCV\",\"DMD_TRA-F-HTRUCK-HEV\",\"DMD_TRA-F-HTRUCK-ICE\"]}",
+    "Name": "TRA_F-HTRUCK-N_TYPE"
+  },
+  {
+    "Description": "Freight Transport - Heavy Goods Truck Stock by Type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_TRA-F-HTRUCK-BEV\",\"DMD_TRA-F-HTRUCK-FCV\",\"DMD_TRA-F-HTRUCK-HEV\",\"DMD_TRA-F-HTRUCK-ICE\"]}",
+    "Name": "TRA_F-HTRUCK_TYPE"
+  },
+  {
+    "Description": "Freight Transport - New Light Goods Truck Stock by Type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"DMD_TRA-F-LTRUCK-BEV\",\"DMD_TRA-F-LTRUCK-FCV\",\"DMD_TRA-F-LTRUCK-HEV\",\"DMD_TRA-F-LTRUCK-ICE\",\"DMD_TRA-F-LTRUCK-PHEV\"]}",
+    "Name": "TRA_F-LTRUCK-N_TYPE"
+  },
+  {
+    "Description": "Freight Transport - Light Goods Truck Stock by Type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_TRA-F-LTRUCK-BEV\",\"DMD_TRA-F-LTRUCK-FCV\",\"DMD_TRA-F-LTRUCK-HEV\",\"DMD_TRA-F-LTRUCK-ICE\",\"DMD_TRA-F-LTRUCK-PHEV\"]}",
+    "Name": "TRA_F-LTRUCK_TYPE"
+  },
+  {
+    "Description": "Freight Transport - New Medium Goods Truck Stock by Type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"DMD_TRA-F-MTRUCK-BEV\",\"DMD_TRA-F-MTRUCK-FCV\",\"DMD_TRA-F-MTRUCK-HEV\",\"DMD_TRA-F-MTRUCK-ICE\"]}",
+    "Name": "TRA_F-MTRUCK-N_TYPE"
+  },
+  {
+    "Description": "Freight Transport - Medium Goods Truck Stock by Type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_TRA-F-MTRUCK-BEV\",\"DMD_TRA-F-MTRUCK-FCV\",\"DMD_TRA-F-MTRUCK-HEV\",\"DMD_TRA-F-MTRUCK-ICE\"]}",
+    "Name": "TRA_F-MTRUCK_TYPE"
+  },
+  {
+    "Description": "Transport final energy consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"FT_TRA\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "TRA_FEC"
+  },
+  {
+    "Description": "Transport final energy consumption by mode",
+    "EditedOn": "2022-05-01 10:01",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-BUS\",\"DMD_TRA-F-TRAIN\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\",\"DMD_TRA-R-AVIDOM\",\"DMD_TRA-R-AVIINT\",\"DMD_TRA-R-NAV\",\"DMD_TRA-R-OTH\",\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NRG\"]}",
+    "Name": "TRA_FEC_Mode"
+  },
+  {
+    "Description": "Freight Transport - Land - Fuel Consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-F-LAND\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
+    "Name": "TRA_Freight_Land_FuelCons"
+  },
+  {
+    "Description": "Freight Transport - Land - Mode",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DMD_TRA-F-HTRUCK\",\"DMD_TRA-F-LTRUCK\",\"DMD_TRA-F-MTRUCK\",\"DMD_TRA-F-TRAIN\"],\"commodityset\":[\"DEM_TRA\"]}",
+    "Name": "TRA_Freight_Land_Mode"
+  },
+  {
+    "Description": "Transport Fuel Marginal Cost",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"EQ_CombalM\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
+    "Name": "TRA_FuelPrice"
+  },
+  {
+    "Description": "Transport - Navigation - Fuel Consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-NAV\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
+    "Name": "TRA_NAV_FuelCons"
+  },
+  {
+    "Description": "Transport - Unspecified - Fuel Consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-OTH\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
+    "Name": "TRA_OTH_FuelCons"
+  },
+  {
+    "Description": "Passenger Transport - New Private Car Stock by Type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_NCap\"],\"processset\":[\"DMD_TRA-P-CAR-BEV\",\"DMD_TRA-P-CAR-FCV\",\"DMD_TRA-P-CAR-HEV\",\"DMD_TRA-P-CAR-ICE\",\"DMD_TRA-P-CAR-PHEV\"]}",
+    "Name": "TRA_P-CAR-N_TYPE"
+  },
+  {
+    "Description": "Passenger Transport - Private Car Stock by Type",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"DMD_TRA-P-CAR-BEV\",\"DMD_TRA-P-CAR-FCV\",\"DMD_TRA-P-CAR-HEV\",\"DMD_TRA-P-CAR-ICE\",\"DMD_TRA-P-CAR-PHEV\"]}",
+    "Name": "TRA_P-CAR_TYPE"
+  },
+  {
+    "Description": "Passenger Transport - Land - Distance",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"TRAPL\",\"TRAPM\",\"TRAPS\"],\"processset\":[\"DMD_TRA-P-LAND\"]}",
+    "Name": "TRA_Passenger_Land_Distance"
+  },
+  {
+    "Description": "Passenger Transport - Land - Fuel Consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-P-LAND\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
+    "Name": "TRA_Passenger_Land_FuelCons"
+  },
+  {
+    "Description": "Passenger Transport - Land - Mode",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DMD_TRA-P-ACTIVE\",\"DMD_TRA-P-BUS\",\"DMD_TRA-P-CAR\",\"DMD_TRA-P-HPT\",\"DMD_TRA-P-LPT\",\"DMD_TRA-P-MOT\",\"DMD_TRA-P-TAXI\"],\"commodityset\":[\"DEM_TRA\"]}",
+    "Name": "TRA_Passenger_Land_Mode"
+  },
+  {
+    "Description": "Transport - Rest - Fuel Consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-REST\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
+    "Name": "TRA_Rest_FuelCons"
+  },
+  {
+    "Description": "Transport - Tourism - Fuel Consumption",
+    "EditedOn": "2021-06-23 09:31",
+    "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"DMD_TRA-R-TURS\"],\"commodityset\":[\"NGR-FUELS_TRA\"]}",
+    "Name": "TRA_TURS_FuelCons"
   }
 ]
