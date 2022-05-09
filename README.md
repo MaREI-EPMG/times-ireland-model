@@ -5,6 +5,8 @@
 
 [![DOI](https://zenodo.org/badge/429173600.svg)](https://zenodo.org/badge/latestdoi/429173600)
 
+*This model version has been used in the study "Low energy demand scenario for feasible deep decarbonisation: Whole energy systems modelling for Ireland". A preprint of the paper (incl. description of the scenarios, etc.) is available [here](https://dx.doi.org/10.2139/ssrn.4003245).* 
+
 ## Purpose of the model
 The TIMES-Ireland Model (TIM) is being developed at UCC to inform future possible decarbonisation pathways for the Irish energy system. We give it information on the Irish energy system as it is today, a set of constraints, including on greenhouse-gas emissions, and the best available projections for what the future technology and fuel options and demands will be.
 
