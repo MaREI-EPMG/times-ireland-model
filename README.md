@@ -15,7 +15,7 @@ Rather than offering a single prescriptive plan, the model helps structure our d
 Alternatively, TIM can be used to assess the implications of certain policies, namely regulatory or technology target-setting (for example, biofuels blending obligation or sales/stock share target for electric vehicles).
 
 ## Documentation
-More information on the TIMES model generator and specific information about TIM can be found in the [Documentation](https://tim-carbon-budgets-2021.netlify.app/documentation).
+More information on the TIMES model generator and specific information about TIM can be found in the [Documentation](https://doi.org/10.5194/gmd-2021-359).
 
 ## About the developers
 The list of developers, contributors and reviewers is described in the [Acknowledgements](/ACKNOWLEDGEMENT.md) section. 
