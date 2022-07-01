@@ -15,7 +15,7 @@ Rather than offering a single prescriptive plan, the model helps structure our d
 Alternatively, TIM can be used to assess the implications of certain policies, namely regulatory or technology target-setting (for example, biofuels blending obligation or sales/stock share target for electric vehicles).
 
 ## Documentation
-More information on the TIMES model generator and specific information about TIM can be found in the [Documentation](https://tim-carbon-budgets-2021.netlify.app/documentation).
+More information on the TIMES model generator and specific information about TIM can be found in the [Documentation](https://doi.org/10.5194/gmd-2021-359).
 
 ## About the developers
 The list of developers, contributors and reviewers is described in the [Acknowledgements](/ACKNOWLEDGEMENT.md) section. 
@@ -26,13 +26,13 @@ TIM is the successor model to the Irish TIMES Model, which has been developed by
 This model has been built to better inform increased national climate mitigation ambition: Ireland now has one of the most ambitious near-term decarbonisation targets in the world, with a new carbon budget process to underpin action. The new model also take into account the changing energy technology landscape, and of new advances in energy systems optimisation modelling techniques.
 
 The first set of scenarios developed with TIM have explored the implications of alternative climate mitigation, technology and demand pathways. This analysis formed a significant part of [the evidence base](https://www.climatecouncil.ie/carbonbudgets/technicalreport/) used by the Irish Climate Change Advisory Council to develop the first set of carbon budget recommendations. 
-- Zenodo repositary of scenarios: https://zenodo.org/record/5517363
-- Web app visualising results from a selection of scenarios: https://tim-carbon-budgets-2021.netlify.app/results/
-
+- Zenodo [repository of scenarios](https://doi.org/10.5281/zenodo.5517363)
+- [Web app](https://tim-carbon-budgets-2021.netlify.app/results/) visualising results from a selection of scenarios
+.
 
 ## Branch information
-- main: model with an annual timeslice level;
-- main-40: model with 40-timeslice resolution.
+- main: model with an annual timeslice level
+- main-40: model with 40-timeslice resolution
 
 ## Scenario descriptions
 
@@ -40,5 +40,10 @@ The first set of scenarios developed with TIM have explored the implications of 
 - WAM - overall energy system GHG emissions contrained to the Environmental Protection Agency's ["With Additional Measures" scenario](https://www.epa.ie/publications/monitoring--assessment/climate-change/air-emissions/irelands-greenhouse-gas-emissions-projections-2020-2040.php)
 - EAM - overall energy system GHG emissions are constrained to meet the Programme for Government target of reducing GHG emissions by 51% relative to 2018 by 2030, and a net-zero target by 2050. It is assumed that non-energy (largely agriculture) GHG emissions also achieve the 51% target. 
 
+## Peer-reviewed publications
+
+- [Low energy demand scenario for feasible deep decarbonisation: Whole energy systems modelling for Ireland](https://doi.org/10.1016/j.rset.2022.100024). 2022. *Renewable and Sustainable Energy Transition*.
+- [Decarbonisation of passenger light-duty vehicles using spatially resolved TIMES-Ireland Model](https://doi.org/10.1016/j.apenergy.2022.119078). 2022. *Applied Energy*.
+
 ## Additional resources and links:
-- Presentation of TIM findings by Dr. Hannah Daly to Engineers Ireland, Nov 3rd 2021: https://www.youtube.com/watch?v=lBShCV0rKNk
+- [Presentation of TIM findings](https://www.youtube.com/watch?v=lBShCV0rKNk) by Dr. Hannah Daly to Engineers Ireland, Nov 3<sup>rd</sup> 2021.
