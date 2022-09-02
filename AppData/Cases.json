@@ -1,62 +1,9 @@
 [
   {
-    "CaseId": 32,
-    "CreatedOn": "2021-03-02 13:00",
-    "Description": "",
-    "EditedOn": "2022-02-22 20:37",
-    "EndingYear": "2070",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES",
-    "Name": "No_Mitigation",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p22",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 46,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 51,
-    "ScenarioGroup": "NoMitigation",
-    "ScenarioGroupId": 50,
-    "Solver": "cplex",
-    "SolverOptionFile": "CPLEX",
-    "UserName": "olex"
-  },
-  {
-    "CaseId": 34,
+    "CaseId": 29,
     "CreatedOn": "2021-03-04 15:18",
     "Description": "",
-    "EditedOn": "2021-04-27 14:11",
+    "EditedOn": "2022-09-02 04:09",
     "EndingYear": "2070",
     "FixResultFileName": "True",
     "FixResultInfo": {
@@ -96,20 +43,20 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p22",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 46,
+    "PropertiesGroupId": 53,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 51,
+    "RegionGroupId": 58,
     "ScenarioGroup": "MitigationCAP2021EAM",
-    "ScenarioGroupId": 47,
+    "ScenarioGroupId": 59,
     "Solver": "cplex",
     "SolverOptionFile": "CPLEX",
     "UserName": "olex"
   },
   {
-    "CaseId": 33,
+    "CaseId": 26,
     "CreatedOn": "2021-04-08 15:35",
     "Description": "",
-    "EditedOn": "2021-04-27 14:11",
+    "EditedOn": "2022-09-02 04:09",
     "EndingYear": "2070",
     "FixResultFileName": "True",
     "FixResultInfo": {
@@ -149,11 +96,64 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p22",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 46,
+    "PropertiesGroupId": 53,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 51,
+    "RegionGroupId": 58,
     "ScenarioGroup": "MitigationWAM",
-    "ScenarioGroupId": 49,
+    "ScenarioGroupId": 55,
+    "Solver": "cplex",
+    "SolverOptionFile": "CPLEX",
+    "UserName": "olex"
+  },
+  {
+    "CaseId": 27,
+    "CreatedOn": "2021-03-02 13:00",
+    "Description": "",
+    "EditedOn": "2022-09-02 03:53",
+    "EndingYear": "2070",
+    "FixResultFileName": "False",
+    "FixResultInfo": {
+      "WorkTimesFolderPath": "",
+      "GdxElasticDermands": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": false
+      },
+      "GdxIre": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": false,
+        "RadioSelection": 1
+      },
+      "GdxUseSolution": {
+        "FixYearsUpto": "",
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": false,
+        "RadioSelection": 1
+      },
+      "IsApplyFixResult": false
+    },
+    "GAMSSourceFolder": "GAMS_SrcTIMES",
+    "Name": "No_Mitigation",
+    "ParametricGroup": null,
+    "ParametricGroupId": null,
+    "PeriodsDefinition": "p22",
+    "PropertiesGroup": "DefaultProperties",
+    "PropertiesGroupId": 53,
+    "RegionGroup": "SingleRegion",
+    "RegionGroupId": 58,
+    "ScenarioGroup": "NoMitigation",
+    "ScenarioGroupId": 56,
     "Solver": "cplex",
     "SolverOptionFile": "CPLEX",
     "UserName": "olex"
