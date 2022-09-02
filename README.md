@@ -15,7 +15,7 @@ Rather than offering a single prescriptive plan, the model helps structure our d
 Alternatively, TIM can be used to assess the implications of certain policies, namely regulatory or technology target-setting (for example, biofuels blending obligation or sales/stock share target for electric vehicles).
 
 ## Documentation
-More information on the TIMES model generator and specific information about TIM can be found in the [Documentation](https://doi.org/10.5194/gmd-2021-359).
+More information on the TIMES model generator and specific information about TIM can be found in the [Documentation](https://doi.org/10.5194/gmd-15-4991-2022).
 
 ## About the developers
 The list of developers, contributors and reviewers is described in the [Acknowledgements](/ACKNOWLEDGEMENT.md) section. 
@@ -28,11 +28,7 @@ This model has been built to better inform increased national climate mitigation
 The first set of scenarios developed with TIM have explored the implications of alternative climate mitigation, technology and demand pathways. This analysis formed a significant part of [the evidence base](https://www.climatecouncil.ie/carbonbudgets/technicalreport/) used by the Irish Climate Change Advisory Council to develop the first set of carbon budget recommendations. 
 - Zenodo [repository of scenarios](https://doi.org/10.5281/zenodo.5517363)
 - [Web app](https://tim-carbon-budgets-2021.netlify.app/results/) visualising results from a selection of scenarios
-.
-
-## Branch information
-- main: model with an annual timeslice level
-- main-40: model with 40-timeslice resolution
+- [Presentation of TIM findings](https://www.youtube.com/watch?v=lBShCV0rKNk) to Engineers Ireland, Nov 3<sup>rd</sup> 2021.
 
 ## Scenario descriptions
 
@@ -42,8 +38,6 @@ The first set of scenarios developed with TIM have explored the implications of 
 
 ## Peer-reviewed publications
 
+- [TIM: modelling pathways to meet Ireland's long-term energy system challenges with the TIMES-Ireland Model (v1.0)](https://doi.org/10.5194/gmd-15-4991-2022). 2022. *Geoscientific Model Development*.
 - [Low energy demand scenario for feasible deep decarbonisation: Whole energy systems modelling for Ireland](https://doi.org/10.1016/j.rset.2022.100024). 2022. *Renewable and Sustainable Energy Transition*.
 - [Decarbonisation of passenger light-duty vehicles using spatially resolved TIMES-Ireland Model](https://doi.org/10.1016/j.apenergy.2022.119078). 2022. *Applied Energy*.
-
-## Additional resources and links:
-- [Presentation of TIM findings](https://www.youtube.com/watch?v=lBShCV0rKNk) by Dr. Hannah Daly to Engineers Ireland, Nov 3<sup>rd</sup> 2021.
