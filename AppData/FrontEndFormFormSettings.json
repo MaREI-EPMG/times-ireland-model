@@ -1,5 +1,5 @@
 {
-  "ThreadCount": null,
+  "ThreadCount": -1,
   "IsDEMChecked": true,
   "IsMATChecked": true,
   "IsNRGChecked": true,
