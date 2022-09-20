@@ -1,0 +1,60 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0003-2388-7057",
+            "affiliation": "University College Cork",
+            "name": "Balyk, Olexandr"
+        },
+		{
+            "orcid": "0000-0001-7004-0153",
+            "affiliation": "University College Cork",
+            "name": "Glynn, James"
+        },
+		{
+            "orcid": "0000-0001-7390-704X",
+            "affiliation": "University College Cork",
+            "name": "Aryanpur, Vahid"
+        },
+		{
+            "orcid": "0000-0003-2667-9237",
+            "affiliation": "University College Cork",
+            "name": "Gaur, Ankita"
+        },
+		{
+            "orcid": "0000-0002-7936-6608",
+            "affiliation": "University College Cork",
+            "name": "McGuire, Jason"
+        },
+		{
+            "orcid": "0000-0002-8215-4526",
+            "affiliation": "University College Cork",
+            "name": "Smith, Andrew"
+        },
+		{
+            "orcid": "0000-0002-0001-1477",
+            "affiliation": "University College Cork",
+            "name": "Yue, Xiufeng"
+        },
+		{
+            "orcid": "0000-0002-9757-5972",
+            "affiliation": "E4SMA s.r.l.",
+            "name": "Chiodi, Alessandro"
+        },
+		{
+            "orcid": "0000-0001-7735-6441",
+            "affiliation": "E4SMA s.r.l.",
+            "name": "Gargiulo, Maurizio"
+        },
+		{
+            "orcid": "0000-0001-7702-5351",
+            "affiliation": "University College Cork",
+            "name": "Daly, Hannah"
+        }
+    ],
+
+    "license": "CC-BY-NC-SA-4.0",
+
+    "title": "TIMES-Ireland Model",
+
+    "keywords": ["TIMES", "Energy system model", "Scenario analysis", "Energy planning", "Energy transition", "Ireland"]
+}
