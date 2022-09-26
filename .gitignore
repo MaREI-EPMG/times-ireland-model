@@ -2,6 +2,7 @@ Settings.json
 *Details.json
 ResultsFormSettings.json
 *.opt
+!cplex.opt
 *.mdb
 *.ldb
 *.log
