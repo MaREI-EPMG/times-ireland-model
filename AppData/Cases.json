@@ -1,164 +1,5 @@
 [
   {
-    "CaseId": 13,
-    "CreatedOn": "2022-07-01 05:17",
-    "Description": "",
-    "EditedOn": "2022-07-01 05:17",
-    "EndingYear": "2070",
-    "FixResultFileName": "True",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "2021",
-        "GdxSelectedFile": {
-          "FileName": "No_Mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\No_Mitigation.gdx",
-          "IsSelected": true
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": true
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES",
-    "Name": "Mitigation_Baseline",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 24,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 29,
-    "ScenarioGroup": "MitigationBaseline",
-    "ScenarioGroupId": 25,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "olex"
-  },
-  {
-    "CaseId": 14,
-    "CreatedOn": "2022-04-29 13:08",
-    "Description": "",
-    "EditedOn": "2022-04-29 13:08",
-    "EndingYear": "2070",
-    "FixResultFileName": "True",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "2021",
-        "GdxSelectedFile": {
-          "FileName": "No_Mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\No_Mitigation.gdx",
-          "IsSelected": true
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": true
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES",
-    "Name": "Mitigation_CarbonBudget",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 24,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 29,
-    "ScenarioGroup": "MitigationCarbonBudget",
-    "ScenarioGroupId": 34,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "olex"
-  },
-  {
-    "CaseId": 15,
-    "CreatedOn": "2022-05-04 09:05",
-    "Description": "",
-    "EditedOn": "2022-05-04 09:05",
-    "EndingYear": "2070",
-    "FixResultFileName": "True",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "2021",
-        "GdxSelectedFile": {
-          "FileName": "No_Mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\No_Mitigation.gdx",
-          "IsSelected": true
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": true
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES",
-    "Name": "Mitigation_CarbonBudget-LED_Halfway",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 24,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 29,
-    "ScenarioGroup": "MitigationCarbonBudget-LED_Halfway",
-    "ScenarioGroupId": 33,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "olex"
-  },
-  {
     "CaseId": 16,
     "CreatedOn": "2022-04-28 21:01",
     "Description": "",
@@ -207,6 +48,112 @@
     "RegionGroupId": 29,
     "ScenarioGroup": "MitigationSectoralCBs",
     "ScenarioGroupId": 26,
+    "Solver": "cplex",
+    "SolverOptionFile": "cplex",
+    "UserName": "olex"
+  },
+  {
+    "CaseId": 29,
+    "CreatedOn": "2022-10-04 19:58",
+    "Description": "",
+    "EditedOn": "2022-10-04 19:58",
+    "EndingYear": "2070",
+    "FixResultFileName": "True",
+    "FixResultInfo": {
+      "WorkTimesFolderPath": "",
+      "GdxElasticDermands": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true
+      },
+      "GdxIre": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "GdxUseSolution": {
+        "FixYearsUpto": "2021",
+        "GdxSelectedFile": {
+          "FileName": "No_Mitigation",
+          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\No_Mitigation.gdx",
+          "IsSelected": true
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "IsApplyFixResult": true
+    },
+    "GAMSSourceFolder": "GAMS_SrcTIMES",
+    "Name": "Mitigation_SectoralCBs-DC_Projection",
+    "ParametricGroup": "all_SRV_DC_Demand",
+    "ParametricGroupId": 59,
+    "PeriodsDefinition": "p39",
+    "PropertiesGroup": "DefaultProperties",
+    "PropertiesGroupId": 24,
+    "RegionGroup": "SingleRegion",
+    "RegionGroupId": 29,
+    "ScenarioGroup": "MitigationSectoralCBs",
+    "ScenarioGroupId": 26,
+    "Solver": "cplex",
+    "SolverOptionFile": "cplex",
+    "UserName": "olex"
+  },
+  {
+    "CaseId": 28,
+    "CreatedOn": "2022-10-04 19:56",
+    "Description": "",
+    "EditedOn": "2022-10-04 19:56",
+    "EndingYear": "2070",
+    "FixResultFileName": "True",
+    "FixResultInfo": {
+      "WorkTimesFolderPath": "",
+      "GdxElasticDermands": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true
+      },
+      "GdxIre": {
+        "GdxSelectedFile": {
+          "FileName": "",
+          "FilePath": "",
+          "IsSelected": false
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "GdxUseSolution": {
+        "FixYearsUpto": "2021",
+        "GdxSelectedFile": {
+          "FileName": "No_Mitigation",
+          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\No_Mitigation.gdx",
+          "IsSelected": true
+        },
+        "IsApplied": true,
+        "RadioSelection": 1
+      },
+      "IsApplyFixResult": true
+    },
+    "GAMSSourceFolder": "GAMS_SrcTIMES",
+    "Name": "Mitigation_SectoralCBs-LED",
+    "ParametricGroup": null,
+    "ParametricGroupId": null,
+    "PeriodsDefinition": "p39",
+    "PropertiesGroup": "DefaultProperties",
+    "PropertiesGroupId": 24,
+    "RegionGroup": "SingleRegion",
+    "RegionGroupId": 29,
+    "ScenarioGroup": "MitigationSectoralCBs-LED",
+    "ScenarioGroupId": 60,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "olex"
@@ -268,7 +215,7 @@
     "CaseId": 18,
     "CreatedOn": "2021-03-02 13:00",
     "Description": "",
-    "EditedOn": "2022-04-29 13:41",
+    "EditedOn": "2022-09-27 20:41",
     "EndingYear": "2070",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -306,7 +253,7 @@
     "Name": "No_Mitigation",
     "ParametricGroup": null,
     "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
+    "PeriodsDefinition": "p23",
     "PropertiesGroup": "DefaultProperties",
     "PropertiesGroupId": 24,
     "RegionGroup": "SingleRegion",
