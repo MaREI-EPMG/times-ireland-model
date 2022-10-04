@@ -34,7 +34,7 @@ The first set of scenarios developed with TIM have explored the implications of 
 
 - No mitigation - No GHG constraint
 - WAM - overall energy system GHG emissions contrained to the Environmental Protection Agency's ["With Additional Measures" scenario](https://www.epa.ie/publications/monitoring--assessment/climate-change/air-emissions/irelands-greenhouse-gas-emissions-projections-2020-2040.php)
-- EAM - overall energy system GHG emissions are constrained to meet the Programme for Government target of reducing GHG emissions by 51% relative to 2018 by 2030, and a net-zero target by 2050. It is assumed that non-energy (largely agriculture) GHG emissions also achieve the 51% target. 
+- CB - energy system GHG emissions are constrained to meet [sectoral emissions ceilings](https://www.gov.ie/en/publication/76864-sectoral-emissions-ceilings/). 
 
 ## Peer-reviewed publications
 
