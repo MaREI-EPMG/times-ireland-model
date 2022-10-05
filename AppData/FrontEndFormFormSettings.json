@@ -1,7 +1,7 @@
 {
-  "IsNRGChecked": true,
-  "IsMATChecked": true,
+  "ThreadCount": -1,
   "IsDEMChecked": true,
-  "IsUserConstraintChecked": false,
-  "ThreadCount": -1
+  "IsMATChecked": true,
+  "IsNRGChecked": true,
+  "IsUserConstraintChecked": false
 }
