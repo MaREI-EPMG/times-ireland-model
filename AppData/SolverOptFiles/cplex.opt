@@ -1,10 +1,15 @@
-scaind 1
+*scaind 1
+aggind 2
+preind 1
+barstartalg 2
+depind -1
 rerun yes
-iis yes
+iis 1
 lpmethod 4
-baralg 1
-barcrossalg 0
-barorder 3
+*baralg 1
+*barcrossalg 0
+*barorder 3
 THREADS=7
 advind=0
 names no
+solutiontype 2

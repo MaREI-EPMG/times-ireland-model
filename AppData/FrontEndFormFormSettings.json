@@ -1,7 +1,1 @@
-{
-  "ThreadCount": -1,
-  "IsDEMChecked": true,
-  "IsMATChecked": true,
-  "IsNRGChecked": true,
-  "IsUserConstraintChecked": false
-}
+{"IsNRGChecked":false,"IsMATChecked":false,"IsDEMChecked":false,"IsUserConstraintChecked":false,"ThreadCount":-1}
