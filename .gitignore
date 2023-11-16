@@ -11,4 +11,5 @@ ResultsFormSettings.json
 *.xlk
 !Databases/UserOptions.*
 !veda_snt.mdb
-SuppXLS/ParScenFiles/
+SuppXLS/ParScenFiles
+Exported_files
