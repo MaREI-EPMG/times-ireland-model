@@ -1,15 +1,12 @@
 *scaind 1
-aggind 2
+aggind 50
 preind 1
-barstartalg 2
-depind -1
-rerun yes
-iis 1
+*depind 1
+*barstartalg 2
 lpmethod 4
-*baralg 1
-*barcrossalg 0
-*barorder 3
-THREADS=7
+baralg 2
+barcolnz 350
+THREADS=-1
 advind=0
 names no
 solutiontype 2
