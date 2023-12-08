@@ -1,4 +1,4 @@
-#Main branch process updates
+# Main branch process updates
 
 In order to get a new version brought into the main branch, we need to understand how the changes manifest in the outputs, and be able to explain the differences to ourselves and 
 
