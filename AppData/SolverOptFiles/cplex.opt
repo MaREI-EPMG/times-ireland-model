@@ -1,4 +1,4 @@
-*scaind 1
+scaind 1
 aggind 50
 preind 1
 *depind 1
@@ -8,5 +8,6 @@ baralg 2
 barcolnz 350
 THREADS=-1
 advind=0
-names no
+names yes
 solutiontype 2
+*feasopt 1
