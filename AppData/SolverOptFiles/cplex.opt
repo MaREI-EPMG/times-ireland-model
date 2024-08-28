@@ -5,7 +5,7 @@ preind 1
 *barstartalg 2
 lpmethod 4
 baralg 2
-barcolnz 350
+*barcolnz 350
 THREADS=-1
 advind=0
 names yes
