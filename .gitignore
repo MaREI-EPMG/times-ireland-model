@@ -14,3 +14,4 @@ ResultsFormSettings.json
 SuppXLS/ParScenFiles
 Exported_files
 ~*.xlsx
+/SyncLogs
