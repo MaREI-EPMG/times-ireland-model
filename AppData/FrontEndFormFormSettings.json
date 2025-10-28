@@ -1,16 +1,1 @@
-{
-  "ApplicationVersion": "4.1.1.1",
-  "UserName": "rbsul",
-  "Date": "2025-10-21 12:53",
-  "FormSettings": {
-    "IsNRGChecked": true,
-    "IsMATChecked": false,
-    "IsDEMChecked": true,
-    "IsUserConstraintChecked": true,
-    "ThreadCount": -1,
-    "IsFillRCompareChecked": true,
-    "None": false,
-    "Times": true,
-    "Osemosys": false
-  }
-}
+{"ApplicationVersion":"4.1.1.1","UserName":"rbsul","Date":"2025-10-21 12:53","FormSettings":{"IsNRGChecked":true,"IsMATChecked":false,"IsDEMChecked":true,"IsUserConstraintChecked":true,"ThreadCount":-1,"IsFillRCompareChecked":true,"None":false,"Times":true,"Osemosys":false},"IsFillRCompareChecked":true}
