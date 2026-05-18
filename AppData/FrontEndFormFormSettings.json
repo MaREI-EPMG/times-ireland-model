@@ -1,1 +1,17 @@
-{"IsNRGChecked":false,"IsMATChecked":false,"IsDEMChecked":false,"IsUserConstraintChecked":false,"ThreadCount":-1,"IsFillRCompareChecked":true}
+{
+  "ApplicationVersion": "4.2.1.0",
+  "UserName": "rbsul",
+  "Date": "2026-04-22 13:22",
+  "FormSettings": {
+    "IsNRGChecked": true,
+    "IsMATChecked": true,
+    "IsDEMChecked": true,
+    "IsUserConstraintChecked": true,
+    "ThreadCount": -1,
+    "IsFillRCompareChecked": true,
+    "IsRunGdx2Veda": true,
+    "None": false,
+    "Times": true,
+    "Osemosys": false
+  }
+}
