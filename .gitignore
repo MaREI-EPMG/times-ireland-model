@@ -14,5 +14,4 @@ ResultsFormSettings.json
 SuppXLS/ParScenFiles
 Exported_files
 ~*.xlsx
-SyncLogs/SynchronizeLogNewEntries - tasks.xlsx
-SyncLogs/SynchronizeLogAllEntries - tasks.xlsx
+SyncLogs/
