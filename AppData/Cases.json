@@ -1,60 +1,6 @@
 [
   {
-    "CaseId": 955,
-    "CreatedOn": "2023-12-20 15:55",
-    "Description": "",
-    "EditedOn": "2023-12-21 01:43",
-    "EndingYear": "2052",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.7.6",
-    "Name": "all_scens",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "AllScenario-1",
-    "ScenarioGroupId": 1128,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 954,
+    "CaseId": 1155,
     "CreatedOn": "2024-09-20 08:47",
     "Description": "",
     "EditedOn": "2025-06-30 10:12",
@@ -97,18 +43,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "BAU",
-    "ScenarioGroupId": 1129,
+    "ScenarioGroupId": 1384,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 956,
+    "CaseId": 1157,
     "CreatedOn": "2024-10-16 14:31",
     "Description": "",
     "EditedOn": "2025-01-17 10:19",
@@ -151,21 +97,21 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p16",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "BAU",
-    "ScenarioGroupId": 1129,
+    "ScenarioGroupId": 1384,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 957,
+    "CaseId": 1158,
     "CreatedOn": "2025-06-30 08:58",
     "Description": "",
-    "EditedOn": "2026-03-23 14:33",
+    "EditedOn": "2026-04-22 12:44",
     "EndingYear": "2051",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -205,18 +151,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "BAU-NoTRA",
-    "ScenarioGroupId": 1130,
+    "ScenarioGroupId": 1385,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 958,
+    "CaseId": 1159,
     "CreatedOn": "2024-09-19 10:34",
     "Description": "",
     "EditedOn": "2024-09-19 15:05",
@@ -259,21 +205,21 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "BAU-WAM",
-    "ScenarioGroupId": 1131,
+    "ScenarioGroupId": 1386,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 959,
+    "CaseId": 1160,
     "CreatedOn": "2024-09-24 19:01",
     "Description": "",
-    "EditedOn": "2024-12-17 01:24",
+    "EditedOn": "2026-05-18 09:42",
     "EndingYear": "2051",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -313,18 +259,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "BAU-WAM-FX",
-    "ScenarioGroupId": 1132,
+    "ScenarioGroupId": 1387,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 960,
+    "CaseId": 1161,
     "CreatedOn": "2024-09-19 10:34",
     "Description": "",
     "EditedOn": "2024-09-19 21:52",
@@ -367,21 +313,21 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "BAU-WEM",
-    "ScenarioGroupId": 1133,
+    "ScenarioGroupId": 1388,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 961,
+    "CaseId": 1162,
     "CreatedOn": "2024-09-24 19:00",
     "Description": "",
-    "EditedOn": "2024-12-17 01:24",
+    "EditedOn": "2026-05-18 09:42",
     "EndingYear": "2051",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -421,18 +367,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "BAU-WEM-FX",
-    "ScenarioGroupId": 1134,
+    "ScenarioGroupId": 1389,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 962,
+    "CaseId": 1163,
     "CreatedOn": "2025-04-10 14:33",
     "Description": "",
     "EditedOn": "2025-05-16 13:54",
@@ -472,21 +418,21 @@
     "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
     "Name": "ESB-BAU",
     "ParametricGroup": "all_ESB_scens",
-    "ParametricGroupId": 1121,
+    "ParametricGroupId": 1376,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "BAU",
-    "ScenarioGroupId": 1129,
+    "ScenarioGroupId": 1384,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 963,
+    "CaseId": 1164,
     "CreatedOn": "2025-04-10 14:33",
     "Description": "",
     "EditedOn": "2025-05-16 13:54",
@@ -526,78 +472,24 @@
     "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
     "Name": "ESB-LED",
     "ParametricGroup": "all_ESB_scens",
-    "ParametricGroupId": 1121,
+    "ParametricGroupId": 1376,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "LED",
-    "ScenarioGroupId": 1136,
+    "ScenarioGroupId": 1391,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 964,
-    "CreatedOn": "2023-12-20 13:50",
-    "Description": "",
-    "EditedOn": "2024-04-26 00:50",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021CB",
-    "ScenarioGroupId": 1141,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 965,
+    "CaseId": 1166,
     "CreatedOn": "2024-04-15 11:13",
     "Description": "",
-    "EditedOn": "2026-03-06 15:36",
+    "EditedOn": "2026-05-18 09:42",
     "EndingYear": "2051",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -637,18 +529,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-250MT",
-    "ScenarioGroupId": 1148,
+    "ScenarioGroupId": 1403,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 966,
+    "CaseId": 1167,
     "CreatedOn": "2024-08-09 16:17",
     "Description": "",
     "EditedOn": "2024-09-23 23:02",
@@ -691,21 +583,21 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-250MT-hiRES",
-    "ScenarioGroupId": 1149,
+    "ScenarioGroupId": 1404,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 967,
+    "CaseId": 1168,
     "CreatedOn": "2024-08-21 10:22",
     "Description": "",
-    "EditedOn": "2024-09-23 23:02",
+    "EditedOn": "2026-05-18 09:42",
     "EndingYear": "2051",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -745,18 +637,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-250MT-LED",
-    "ScenarioGroupId": 1150,
+    "ScenarioGroupId": 1405,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 968,
+    "CaseId": 1169,
     "CreatedOn": "2024-08-16 15:58",
     "Description": "",
     "EditedOn": "2024-09-14 08:37",
@@ -799,18 +691,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-250MT-myopic",
-    "ScenarioGroupId": 1151,
+    "ScenarioGroupId": 1406,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 969,
+    "CaseId": 1170,
     "CreatedOn": "2024-08-14 09:45",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -853,18 +745,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-250MT-nobio",
-    "ScenarioGroupId": 1152,
+    "ScenarioGroupId": 1407,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 970,
+    "CaseId": 1171,
     "CreatedOn": "2024-08-26 15:01",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -907,18 +799,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-250MT-WAM",
-    "ScenarioGroupId": 1153,
+    "ScenarioGroupId": 1408,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 971,
+    "CaseId": 1172,
     "CreatedOn": "2024-08-26 15:02",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -961,21 +853,21 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-250MT-WEM",
-    "ScenarioGroupId": 1154,
+    "ScenarioGroupId": 1409,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 972,
+    "CaseId": 1173,
     "CreatedOn": "2024-04-15 09:21",
     "Description": "",
-    "EditedOn": "2024-12-17 01:24",
+    "EditedOn": "2026-05-18 09:42",
     "EndingYear": "2051",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -1015,18 +907,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-300MT",
-    "ScenarioGroupId": 1155,
+    "ScenarioGroupId": 1410,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 973,
+    "CaseId": 1174,
     "CreatedOn": "2024-08-09 16:17",
     "Description": "",
     "EditedOn": "2024-09-23 23:02",
@@ -1069,21 +961,21 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-300MT-hiRES",
-    "ScenarioGroupId": 1156,
+    "ScenarioGroupId": 1411,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 974,
+    "CaseId": 1175,
     "CreatedOn": "2024-08-21 10:22",
     "Description": "",
-    "EditedOn": "2024-09-23 23:02",
+    "EditedOn": "2026-05-18 09:42",
     "EndingYear": "2051",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -1123,18 +1015,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-300MT-LED",
-    "ScenarioGroupId": 1157,
+    "ScenarioGroupId": 1412,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 975,
+    "CaseId": 1176,
     "CreatedOn": "2024-08-16 15:27",
     "Description": "",
     "EditedOn": "2024-09-14 08:37",
@@ -1177,18 +1069,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-300MT-myopic",
-    "ScenarioGroupId": 1158,
+    "ScenarioGroupId": 1413,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 976,
+    "CaseId": 1177,
     "CreatedOn": "2024-07-24 13:15",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -1231,18 +1123,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-300MT-nobio",
-    "ScenarioGroupId": 1159,
+    "ScenarioGroupId": 1414,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 977,
+    "CaseId": 1178,
     "CreatedOn": "2026-01-20 12:27",
     "Description": "",
     "EditedOn": "2026-03-03 10:09",
@@ -1285,18 +1177,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-300MT",
-    "ScenarioGroupId": 1155,
+    "ScenarioGroupId": 1410,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 978,
+    "CaseId": 1179,
     "CreatedOn": "2024-08-23 10:58",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -1339,18 +1231,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-300MT-WAM",
-    "ScenarioGroupId": 1160,
+    "ScenarioGroupId": 1415,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 979,
+    "CaseId": 1180,
     "CreatedOn": "2024-08-23 10:54",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -1393,18 +1285,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-300MT-WEM",
-    "ScenarioGroupId": 1161,
+    "ScenarioGroupId": 1416,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 980,
+    "CaseId": 1181,
     "CreatedOn": "2024-04-15 09:21",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -1447,18 +1339,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-350MT",
-    "ScenarioGroupId": 1162,
+    "ScenarioGroupId": 1417,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 981,
+    "CaseId": 1182,
     "CreatedOn": "2024-08-09 16:17",
     "Description": "",
     "EditedOn": "2024-09-23 23:02",
@@ -1501,18 +1393,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-350MT-hiRES",
-    "ScenarioGroupId": 1163,
+    "ScenarioGroupId": 1418,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 982,
+    "CaseId": 1183,
     "CreatedOn": "2024-08-21 10:22",
     "Description": "",
     "EditedOn": "2024-09-23 23:02",
@@ -1555,18 +1447,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-350MT-LED",
-    "ScenarioGroupId": 1164,
+    "ScenarioGroupId": 1419,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 983,
+    "CaseId": 1184,
     "CreatedOn": "2024-08-16 15:59",
     "Description": "",
     "EditedOn": "2024-09-14 08:37",
@@ -1609,18 +1501,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-350MT-myopic",
-    "ScenarioGroupId": 1165,
+    "ScenarioGroupId": 1420,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 984,
+    "CaseId": 1185,
     "CreatedOn": "2024-07-24 13:15",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -1663,18 +1555,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-350MT-nobio",
-    "ScenarioGroupId": 1166,
+    "ScenarioGroupId": 1421,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 985,
+    "CaseId": 1186,
     "CreatedOn": "2024-08-23 10:58",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -1717,18 +1609,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-350MT-WAM",
-    "ScenarioGroupId": 1167,
+    "ScenarioGroupId": 1422,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 986,
+    "CaseId": 1187,
     "CreatedOn": "2024-08-23 10:54",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -1771,18 +1663,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-350MT-WEM",
-    "ScenarioGroupId": 1168,
+    "ScenarioGroupId": 1423,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 987,
+    "CaseId": 1188,
     "CreatedOn": "2024-04-15 09:20",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -1825,18 +1717,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-400MT",
-    "ScenarioGroupId": 1169,
+    "ScenarioGroupId": 1424,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 988,
+    "CaseId": 1189,
     "CreatedOn": "2024-10-21 15:38",
     "Description": "",
     "EditedOn": "2024-10-21 16:09",
@@ -1879,18 +1771,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-400MT",
-    "ScenarioGroupId": 1169,
+    "ScenarioGroupId": 1424,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 989,
+    "CaseId": 1190,
     "CreatedOn": "2024-08-09 16:17",
     "Description": "",
     "EditedOn": "2024-09-23 23:02",
@@ -1933,18 +1825,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-400MT-hiRES",
-    "ScenarioGroupId": 1171,
+    "ScenarioGroupId": 1426,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 990,
+    "CaseId": 1191,
     "CreatedOn": "2024-08-21 10:21",
     "Description": "",
     "EditedOn": "2024-09-23 23:02",
@@ -1987,18 +1879,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-400MT-LED",
-    "ScenarioGroupId": 1172,
+    "ScenarioGroupId": 1427,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 991,
+    "CaseId": 1192,
     "CreatedOn": "2024-08-16 15:58",
     "Description": "",
     "EditedOn": "2024-09-14 08:37",
@@ -2041,18 +1933,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-400MT-myopic",
-    "ScenarioGroupId": 1173,
+    "ScenarioGroupId": 1428,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 992,
+    "CaseId": 1193,
     "CreatedOn": "2024-07-24 13:13",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -2095,18 +1987,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-400MT-nobio",
-    "ScenarioGroupId": 1174,
+    "ScenarioGroupId": 1429,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 993,
+    "CaseId": 1194,
     "CreatedOn": "2024-08-23 10:59",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -2149,18 +2041,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-400MT-WAM",
-    "ScenarioGroupId": 1175,
+    "ScenarioGroupId": 1430,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 994,
+    "CaseId": 1195,
     "CreatedOn": "2024-08-23 10:51",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -2203,21 +2095,21 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-400MT-WEM",
-    "ScenarioGroupId": 1176,
+    "ScenarioGroupId": 1431,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 995,
+    "CaseId": 1196,
     "CreatedOn": "2024-04-23 17:09",
     "Description": "",
-    "EditedOn": "2024-12-17 01:24",
+    "EditedOn": "2026-05-18 09:42",
     "EndingYear": "2051",
     "FixResultFileName": "False",
     "FixResultInfo": {
@@ -2257,18 +2149,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-450MT",
-    "ScenarioGroupId": 1177,
+    "ScenarioGroupId": 1432,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 996,
+    "CaseId": 1197,
     "CreatedOn": "2024-08-23 10:59",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -2311,18 +2203,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-450MT-WAM",
-    "ScenarioGroupId": 1178,
+    "ScenarioGroupId": 1433,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 997,
+    "CaseId": 1198,
     "CreatedOn": "2024-08-23 10:54",
     "Description": "",
     "EditedOn": "2024-12-17 01:24",
@@ -2365,990 +2257,18 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "MitigationCAP2024CB-450MT-WEM",
-    "ScenarioGroupId": 1179,
+    "ScenarioGroupId": 1434,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
     "ModelFramework": "Times"
   },
   {
-    "CaseId": 998,
-    "CreatedOn": "2023-09-27 08:40",
-    "Description": "",
-    "EditedOn": "2023-10-06 08:32",
-    "EndingYear": "2070",
-    "FixResultFileName": "True",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "2022",
-        "GdxSelectedFile": {
-          "FileName": "no_mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\no_mitigation.gdx",
-          "IsSelected": true
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": true
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-2040",
-    "ParametricGroup": "all_SYS_CB_Overshoot",
-    "ParametricGroupId": 1123,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021CB",
-    "ScenarioGroupId": 1141,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 999,
-    "CreatedOn": "2023-10-26 15:30",
-    "Description": "",
-    "EditedOn": "2023-11-27 13:07",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-300MT",
-    "ParametricGroup": "all_SYS_CB_Overshoot_300MT",
-    "ParametricGroupId": 1124,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021_CB-300MT",
-    "ScenarioGroupId": 1137,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1000,
-    "CreatedOn": "2023-10-29 10:54",
-    "Description": "",
-    "EditedOn": "2023-11-16 05:39",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-300MT-LED",
-    "ParametricGroup": "all_SYS_CB_Overshoot_300MT",
-    "ParametricGroupId": 1124,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021_CB-300MT-LED",
-    "ScenarioGroupId": 1138,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1001,
-    "CreatedOn": "2023-10-26 15:13",
-    "Description": "",
-    "EditedOn": "2023-11-09 16:20",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.7.3",
-    "Name": "Mitigation_CB-400MT",
-    "ParametricGroup": "all_SYS_CB_Overshoot_400MT",
-    "ParametricGroupId": 1126,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021_CB-400MT",
-    "ScenarioGroupId": 1139,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1002,
-    "CreatedOn": "2023-11-13 14:45",
-    "Description": "",
-    "EditedOn": "2023-11-13 19:37",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.7.3",
-    "Name": "Mitigation_CB-400MT-DImp",
-    "ParametricGroup": "all_SYS_CB_Overshoot_400MT",
-    "ParametricGroupId": 1126,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021_CB-400MT",
-    "ScenarioGroupId": 1139,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1003,
-    "CreatedOn": "2023-10-29 17:37",
-    "Description": "",
-    "EditedOn": "2023-10-30 03:17",
-    "EndingYear": "2051",
-    "FixResultFileName": "True",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "2022",
-        "GdxSelectedFile": {
-          "FileName": "no_mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\no_mitigation.gdx",
-          "IsSelected": true
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": true
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-400MT-LED",
-    "ParametricGroup": "all_SYS_CB_Overshoot_400MT",
-    "ParametricGroupId": 1126,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021_CB-400MT-LED",
-    "ScenarioGroupId": 1140,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1004,
-    "CreatedOn": "2023-10-07 09:44",
-    "Description": "",
-    "EditedOn": "2023-10-09 14:18",
-    "EndingYear": "2050",
-    "FixResultFileName": "True",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "2022",
-        "GdxSelectedFile": {
-          "FileName": "no_mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\no_mitigation.gdx",
-          "IsSelected": true
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": true
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-DAC",
-    "ParametricGroup": "all_SYS_CB_Overshoot",
-    "ParametricGroupId": 1123,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021CB",
-    "ScenarioGroupId": 1141,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1005,
-    "CreatedOn": "2023-09-14 12:13",
-    "Description": "",
-    "EditedOn": "2023-09-15 15:12",
-    "EndingYear": "2070",
-    "FixResultFileName": "True",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "2022",
-        "GdxSelectedFile": {
-          "FileName": "no_mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\no_mitigation.gdx",
-          "IsSelected": true
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": true
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-DACS",
-    "ParametricGroup": "all_SYS_CB_Overshoot",
-    "ParametricGroupId": 1123,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021CB-DACS",
-    "ScenarioGroupId": 1142,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1006,
-    "CreatedOn": "2023-09-13 11:20",
-    "Description": "",
-    "EditedOn": "2023-09-14 10:35",
-    "EndingYear": "2070",
-    "FixResultFileName": "True",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "2022",
-        "GdxSelectedFile": {
-          "FileName": "no_mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\no_mitigation.gdx",
-          "IsSelected": true
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": true
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-LED",
-    "ParametricGroup": "all_SYS_CB_Overshoot",
-    "ParametricGroupId": 1123,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021CB-LED",
-    "ScenarioGroupId": 1143,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1007,
-    "CreatedOn": "2024-02-26 23:22",
-    "Description": "",
-    "EditedOn": "2024-03-13 14:53",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-LowAF",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021CB-LowAF",
-    "ScenarioGroupId": 1144,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1008,
-    "CreatedOn": "2024-02-23 17:07",
-    "Description": "",
-    "EditedOn": "2024-03-13 14:53",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-new",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021CB-new",
-    "ScenarioGroupId": 1145,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1009,
-    "CreatedOn": "2023-10-26 10:47",
-    "Description": "",
-    "EditedOn": "2023-10-26 14:39",
-    "EndingYear": "2051",
-    "FixResultFileName": "True",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": "",
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "2022",
-        "GdxSelectedFile": {
-          "FileName": "no_mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\no_mitigation.gdx",
-          "IsSelected": true
-        },
-        "IsApplied": true,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": true
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_CB-test",
-    "ParametricGroup": "all_SYS_CB_Overshoot",
-    "ParametricGroupId": 1123,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationCAP2021CB",
-    "ScenarioGroupId": 1141,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1010,
-    "CreatedOn": "2022-04-28 21:01",
-    "Description": "",
-    "EditedOn": "2024-04-23 19:32",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_SectoralCBs",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationSectoralCBs",
-    "ScenarioGroupId": 1182,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1011,
-    "CreatedOn": "2022-05-04 09:06",
-    "Description": "",
-    "EditedOn": "2024-01-29 19:11",
-    "EndingYear": "2052",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_SectoralCBs-LED_Halfway",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationSectoralCBs-LED_Halfway",
-    "ScenarioGroupId": 1183,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1012,
-    "CreatedOn": "2024-02-23 17:07",
-    "Description": "",
-    "EditedOn": "2024-03-13 14:53",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_SectoralCBs-LowAF",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationSectoralCBs-LowAF",
-    "ScenarioGroupId": 1184,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1013,
-    "CreatedOn": "2024-02-26 23:22",
-    "Description": "",
-    "EditedOn": "2024-03-13 14:53",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_SectoralCBs-new",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationSectoralCBs-new",
-    "ScenarioGroupId": 1185,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1014,
-    "CreatedOn": "2022-05-04 09:04",
-    "Description": "",
-    "EditedOn": "2024-01-29 19:11",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_SectoralCBs-TechOptimism",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationSectoralCBs-TechOptimism",
-    "ScenarioGroupId": 1186,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1015,
-    "CreatedOn": "2021-04-08 15:35",
-    "Description": "",
-    "EditedOn": "2024-02-16 14:56",
-    "EndingYear": "2051",
-    "FixResultFileName": "False",
-    "FixResultInfo": {
-      "WorkTimesFolderPath": null,
-      "GdxElasticDermands": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false
-      },
-      "GdxIre": {
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "GdxUseSolution": {
-        "FixYearsUpto": "",
-        "GdxSelectedFile": {
-          "FileName": "",
-          "FilePath": "",
-          "IsSelected": false
-        },
-        "IsApplied": false,
-        "RadioSelection": 1
-      },
-      "IsApplyFixResult": false
-    },
-    "GAMSSourceFolder": "GAMS_SrcTIMES.v4.8.1",
-    "Name": "Mitigation_WAM",
-    "ParametricGroup": null,
-    "ParametricGroupId": null,
-    "PeriodsDefinition": "p39",
-    "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
-    "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
-    "ScenarioGroup": "MitigationWAM",
-    "ScenarioGroupId": 1187,
-    "Solver": "cplex",
-    "SolverOptionFile": "cplex",
-    "UserName": "rbsul",
-    "ModelFramework": "Times"
-  },
-  {
-    "CaseId": 1016,
+    "CaseId": 1217,
     "CreatedOn": "2021-03-02 13:00",
     "Description": "",
     "EditedOn": "2024-07-12 22:09",
@@ -3391,11 +2311,11 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p23",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 1120,
+    "PropertiesGroupId": 1375,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 1189,
+    "RegionGroupId": 1444,
     "ScenarioGroup": "NoMitigation",
-    "ScenarioGroupId": 1188,
+    "ScenarioGroupId": 1443,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
     "UserName": "rbsul",
