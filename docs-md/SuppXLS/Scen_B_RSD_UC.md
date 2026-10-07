@@ -1,0 +1,269 @@
+# Scen_B_RSD_UC.xlsx
+
+## Purpose
+This workbook supports the TIMES Ireland model as part of **Residential and buildings**. It is used to define, adjust, or parameterize scenario assumptions and model behavior for its domain.
+
+## Functional role in the model workflow
+- Serves as an input artifact consumed by the model data-preparation process.
+- Encodes structured assumptions that can vary by scenario, policy case, or technology pathway.
+- Organizes data so updates can be managed without changing model code.
+
+## Workbook structure
+- Total worksheets: **14**
+- Worksheets are grouped below by their likely functional theme based on sheet naming and content cues.
+
+### General input tables
+- **Cover**
+  - Content cues: TIMES-Ireland Model; Document type:; Scenario; Sector(s):
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **Regions**
+  - Content cues: IE; National; IE-CW; IE-D
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **COP**
+  - Content cues: scenario; attribute; process; commodity
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **AF**
+  - Content cues: scenario; attribute; process; commodity
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **Stock**
+  - Content cues: scenario; attribute; process; commodity
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **Legend**
+  - Content cues: Residential share example; Document type:; Scenario file on User Constraints; Sector:
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **Ambient Heat**
+  - Content cues: Input to control ambient heat per unit of heat produced; ~TFM_INS-TS; ~TFM_TOPINS; PSET_PN
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **RSDCK_share**
+  - Content cues: Residential Technology shares control for Min-Max Penetration; Cooking; Maximum Share change per year; Base year fixed value
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **Apt_RSD_share**
+  - Content cues: Residential Technology shares control for Min-Max Penetration; Residential Building Apartment; Maximum Share change per year; Spcae Heating
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **Att_RSD_share**
+  - Content cues: Residential Technology shares control for Min-Max Penetration; Residential Building Attached; Maximum Share change per year; Maximum Biodiesel Share change per year
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **Det_RSD_share**
+  - Content cues: Residential Technology shares control for Min-Max Penetration; Residential Building Apartment; Maximum Share change per year; Maximum Biodiesel Share change per year
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **SharesElab**
+  - Content cues: 2018; IE; R-SH_Apt*; R-SH_Apt_BDL_X0
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **FillData**
+  - Content cues: ~TFM_Fill-R: w=Stock; Hcol=Region; Scenario; LimType; Attribute
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+- **Stock-AF-Cap2Act**
+  - Content cues: Process; Year; IE; Cap2Act
+  - Likely use: stores structured assumptions or mappings used during scenario assembly and model execution.
+
+## User constraints and bounds
+- **Constraint name: RSDAHT**
+  - Attribute(s): Attribute, FLO_SHAR, PRC_NOFF
+  - Bound fields: 2018, 2030, 2040, 2050
+  - Bound value range(s): 2018 (0.259505 to 0.705775), 2030 (0.283392 to 0.724901), 2040 (0.283392 to 0.759288), 2050 (0.305786 to 0.786034)
+  - Source worksheet(s): Ambient Heat
+  - Processes limited:
+    - R-HC_Apt_ELC_HPN1
+    - R-HC_Apt_ELC_HPN2-AB
+    - R-HC_Apt_ELC_HPN2-C
+    - R-HC_Apt_ELC_HPN2-D
+    - R-HC_Apt_ELC_HPN2-E
+    - R-HC_Apt_ELC_HPN2-F
+    - R-HC_Apt_ELC_HPN2-G
+    - R-HC_Att_ELC_HPN1
+    - R-HC_Att_ELC_HPN2-AB
+    - R-HC_Att_ELC_HPN2-C
+    - R-HC_Att_ELC_HPN2-D
+    - R-HC_Att_ELC_HPN2-E
+    - R-HC_Att_ELC_HPN2-F
+    - R-HC_Att_ELC_HPN2-G
+    - R-HC_Det_ELC_HPN1
+    - R-HC_Det_ELC_HPN2-AB
+    - R-HC_Det_ELC_HPN2-C
+    - R-HC_Det_ELC_HPN2-D
+    - R-HC_Det_ELC_HPN2-E
+    - R-HC_Det_ELC_HPN2-F
+    - R-HC_Det_ELC_HPN2-G
+    - R-SH_Apt_ELC_HPN1
+    - R-SH_Apt_ELC_HPN2-AB
+    - R-SH_Apt_ELC_HPN2-C
+    - R-SH_Apt_ELC_HPN2-D
+    - R-SH_Apt_ELC_HPN2-E
+    - R-SH_Apt_ELC_HPN2-F
+    - R-SH_Apt_ELC_HPN2-G
+    - R-SH_Apt_ELC_HPN3-AB
+    - R-SH_Apt_ELC_HPN3-C
+    - R-SH_Apt_ELC_HPN3-D
+    - R-SH_Apt_ELC_HPN3-E
+    - R-SH_Apt_ELC_HPN3-F
+    - R-SH_Apt_ELC_HPN3-G
+    - R-SH_Att_ELC_HPN1
+    - R-SH_Att_ELC_HPN2-AB
+    - R-SH_Att_ELC_HPN2-C
+    - R-SH_Att_ELC_HPN2-D
+    - R-SH_Att_ELC_HPN2-E
+    - R-SH_Att_ELC_HPN2-F
+    - R-SH_Att_ELC_HPN2-G
+    - R-SH_Att_ELC_HPN3-AB
+    - R-SH_Att_ELC_HPN3-C
+    - R-SH_Att_ELC_HPN3-D
+    - R-SH_Att_ELC_HPN3-E
+    - R-SH_Att_ELC_HPN3-F
+    - R-SH_Att_ELC_HPN3-G
+    - R-SH_Det_ELC_HPN1
+    - R-SH_Det_ELC_HPN2-AB
+    - R-SH_Det_ELC_HPN2-C
+    - R-SH_Det_ELC_HPN2-D
+    - R-SH_Det_ELC_HPN2-E
+    - R-SH_Det_ELC_HPN2-F
+    - R-SH_Det_ELC_HPN2-G
+    - R-SH_Det_ELC_HPN3-AB
+    - R-SH_Det_ELC_HPN3-C
+    - R-SH_Det_ELC_HPN3-D
+    - R-SH_Det_ELC_HPN3-E
+    - R-SH_Det_ELC_HPN3-F
+    - R-SH_Det_ELC_HPN3-G
+    - R-SW_Apt_ELC_HPN1-AB
+    - R-SW_Apt_ELC_HPN1-C
+    - R-SW_Apt_ELC_HPN1-D
+    - R-SW_Apt_ELC_HPN1-E
+    - R-SW_Apt_ELC_HPN1-F
+    - R-SW_Apt_ELC_HPN1-G
+    - R-SW_Apt_GAS_HHPN1
+    - R-SW_Apt_GAS_HPN1
+    - R-SW_Apt_GAS_HPN2
+    - R-SW_Att_ELC_HPN1-AB
+    - R-SW_Att_ELC_HPN1-C
+    - R-SW_Att_ELC_HPN1-D
+    - R-SW_Att_ELC_HPN1-E
+    - R-SW_Att_ELC_HPN1-F
+    - R-SW_Att_ELC_HPN1-G
+    - R-SW_Att_ELC_HPN2-AB
+    - R-SW_Att_ELC_HPN2-C
+    - R-SW_Att_ELC_HPN2-D
+    - R-SW_Att_ELC_HPN2-E
+    - R-SW_Att_ELC_HPN2-F
+    - R-SW_Att_ELC_HPN2-G
+    - R-SW_Att_GAS_HHPN1
+    - R-SW_Att_GAS_HPN1
+    - R-SW_Att_GAS_HPN2
+    - R-SW_Det_ELC_HPN1-AB
+    - R-SW_Det_ELC_HPN1-C
+    - R-SW_Det_ELC_HPN1-D
+    - R-SW_Det_ELC_HPN1-E
+    - R-SW_Det_ELC_HPN1-F
+    - R-SW_Det_ELC_HPN1-G
+    - R-SW_Det_ELC_HPN2-AB
+    - R-SW_Det_ELC_HPN2-C
+    - R-SW_Det_ELC_HPN2-D
+    - R-SW_Det_ELC_HPN2-E
+    - R-SW_Det_ELC_HPN2-F
+    - R-SW_Det_ELC_HPN2-G
+    - R-SW_Det_GAS_HHPN1
+    - R-SW_Det_GAS_HPN1
+    - R-SW_Det_GAS_HPN2
+
+- **Constraint name: RSDAHT2**
+  - Attribute(s): FLO_SHAR
+  - Bound fields: 2018, 2030, 2040, 2050
+  - Bound value range(s): 2018 (0 to 0.653151), 2030 (0 to 0.687252), 2040 (0 to 0.70873), 2050 (0.00826564 to 0.70873)
+  - Source worksheet(s): Ambient Heat
+  - Processes limited:
+    - R-SW_Apt_ELC_HPN1-AB
+    - R-SW_Apt_ELC_HPN1-C
+    - R-SW_Apt_ELC_HPN1-D
+    - R-SW_Apt_ELC_HPN1-E
+    - R-SW_Apt_ELC_HPN1-F
+    - R-SW_Apt_ELC_HPN1-G
+    - R-SW_Apt_GAS_HHPN1
+    - R-SW_Apt_GAS_HPN1
+    - R-SW_Apt_GAS_HPN2
+    - R-SW_Att_ELC_HPN1-AB
+    - R-SW_Att_ELC_HPN1-C
+    - R-SW_Att_ELC_HPN1-D
+    - R-SW_Att_ELC_HPN1-E
+    - R-SW_Att_ELC_HPN1-F
+    - R-SW_Att_ELC_HPN1-G
+    - R-SW_Att_ELC_HPN2-AB
+    - R-SW_Att_ELC_HPN2-C
+    - R-SW_Att_ELC_HPN2-D
+    - R-SW_Att_ELC_HPN2-E
+    - R-SW_Att_ELC_HPN2-F
+    - R-SW_Att_ELC_HPN2-G
+    - R-SW_Att_GAS_HHPN1
+    - R-SW_Att_GAS_HPN1
+    - R-SW_Att_GAS_HPN2
+    - R-SW_Det_ELC_HPN1-AB
+    - R-SW_Det_ELC_HPN1-C
+    - R-SW_Det_ELC_HPN1-D
+    - R-SW_Det_ELC_HPN1-E
+    - R-SW_Det_ELC_HPN1-F
+    - R-SW_Det_ELC_HPN1-G
+    - R-SW_Det_ELC_HPN2-AB
+    - R-SW_Det_ELC_HPN2-C
+    - R-SW_Det_ELC_HPN2-D
+    - R-SW_Det_ELC_HPN2-E
+    - R-SW_Det_ELC_HPN2-F
+    - R-SW_Det_ELC_HPN2-G
+    - R-SW_Det_GAS_HHPN1
+    - R-SW_Det_GAS_HPN1
+    - R-SW_Det_GAS_HPN2
+
+- **Constraint name: RSDSH_Apt-AB,RSDSH_Apt-C,RSDSH_Apt-D,RSDSH_Apt-E,RSDSH_Apt-F,RSDSH_Apt-G**
+  - Bound fields: 2019, 2020, 2025, 2030, 2050, 2070
+  - Bound value range(s): 2019 (-0.411641 to -0.411641), 2020 (-0.411641 to -0.411641), 2025 (-0.411641 to -0.411641), 2030 (-0.411641 to -0.411641), 2050 (-0.411641 to -0.411641), 2070 (-0.411641 to -0.411641)
+  - Source worksheet(s): Apt_RSD_share
+  - Processes limited:
+    - R-SH_Apt_ELC_N1
+
+- **Constraint name: RSDSH_Att-AB,RSDSH_Att-C,RSDSH_Att-D,RSDSH_Att-E,RSDSH_Att-F,RSDSH_Att-G**
+  - Bound fields: 2019, 2020, 2025, 2030, 2050, 2070
+  - Bound value range(s): 2019 (-0.120306 to -0.120306), 2020 (-0.132337 to -0.132337), 2025 (-0.199092 to -0.199092), 2030 (-0.199092 to -0.199092), 2050 (-0.199092 to -0.199092), 2070 (-0.199092 to -0.199092)
+  - Source worksheet(s): Att_RSD_share
+  - Processes limited:
+    - R-SH_Att_ELC_N1
+
+- **Constraint name: RSDSH_Det-AB,RSDSH_Det-C,RSDSH_Det-D,RSDSH_Det-E,RSDSH_Det-F,RSDSH_Det-G**
+  - Bound fields: 2019, 2020, 2025, 2030, 2050, 2070
+  - Bound value range(s): 2019 (-0.0898743 to -0.0898743), 2020 (-0.0988617 to -0.0988617), 2025 (-0.159218 to -0.159218), 2030 (-0.173684 to -0.173684), 2050 (-0.173684 to -0.173684), 2070 (-0.173684 to -0.173684)
+  - Source worksheet(s): Det_RSD_share
+  - Processes limited:
+    - R-SH_Det_ELC_N1
+
+- **Constraint name: RSDWH_Apt**
+  - Bound fields: 2019, 2020, 2025, 2030, 2050, 2070
+  - Bound value range(s): 2019 (-0.662277 to -1.8459e-05), 2020 (-0.689763 to -1.66131e-05), 2025 (-0.9 to -9.80985e-06), 2030 (-0.9 to -5.79262e-06), 2050 (-0.9 to -7.04247e-07), 2070 (-0.9 to -8.562e-08)
+  - Source worksheet(s): Apt_RSD_share
+  - Processes limited:
+    - R-WH_Apt_BDL*
+    - R-WH_Apt_COA*
+    - R-WH_Apt_ELC*
+    - R-WH_Apt_ETH*
+    - R-WH_Apt_GAS*
+    - R-WH_Apt_HET*
+    - R-WH_Apt_KER*
+    - R-WH_Apt_LPG*
+    - R-WH_Apt_PEA*
+    - R-WH_Apt_SOL*
+    - R-WH_Apt_WOO*
+
+- **Constraint name: RSDWH_Det**
+  - Bound fields: 2019, 2020, 2025, 2030, 2050, 2070
+  - Bound value range(s): 2019 (-0.696383 to -1.39284e-05), 2020 (-0.766021 to -1.25355e-05), 2025 (-0.9 to -7.40211e-06), 2030 (-0.9 to -4.37087e-06), 2050 (-0.9 to -5.31396e-07), 2070 (-0.9 to -6.46053e-08)
+  - Source worksheet(s): Det_RSD_share
+  - Processes limited:
+    - R-WH_Det_BDL*
+    - R-WH_Det_COA*
+    - R-WH_Det_ELC*
+    - R-WH_Det_ETH*
+    - R-WH_Det_GAS*
+    - R-WH_Det_HET*
+    - R-WH_Det_KER*
+    - R-WH_Det_LPG*
+    - R-WH_Det_PEA*
+    - R-WH_Det_SOL*
+    - R-WH_Det_WOO*
+
+## Notes
+- This documentation intentionally describes purpose and functionality without listing spreadsheet cell ranges.
+- Naming suggests this file is part of a larger linked input set; keep workbook names and paths stable when integrating updates.
